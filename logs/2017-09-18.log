@@ -1,0 +1,6 @@
+2017/09/18 22:17:05 [I] [sms_api.go:164] 手机号:18321618993 验证码:069027 发送成功
+2017/09/18 22:18:03 [E] [apply_api.go:411] 添加用户错误 msg:Error 1062: Duplicate entry '044ea19092293a0cfe7f2e69d21ebadd' for key 'machinecode'
+2017/09/18 22:18:05 [E] [apply_api.go:411] 添加用户错误 msg:Error 1062: Duplicate entry '044ea19092293a0cfe7f2e69d21ebadd' for key 'machinecode'
+2017/09/18 22:18:06 [E] [apply_api.go:411] 添加用户错误 msg:Error 1062: Duplicate entry '044ea19092293a0cfe7f2e69d21ebadd' for key 'machinecode'
+2017/09/18 22:18:06 [E] [apply_api.go:411] 添加用户错误 msg:Error 1062: Duplicate entry '044ea19092293a0cfe7f2e69d21ebadd' for key 'machinecode'
+2017/09/18 22:19:06 [I] [sms_api.go:164] 手机号:18321618993 验证码:473911 发送成功

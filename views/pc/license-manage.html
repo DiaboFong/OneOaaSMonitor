@@ -1,0 +1,62 @@
+{{template "tpl/manage-header.html" .}}
+{{template "tpl/manage-sidebar.html" .}}
+<section class="manage-content">
+    <div class="app-board">
+        <div class="datatable">
+            <div class="manage-bg datatable-header">
+                <h3 class="pull-left">证书管理列表</h3>
+                <button class="btn btn-primary pull-right" id="license_apply_for">申请授权码</button>
+            </div>
+            <div class="datatable-body">
+                <table id="license" class="table table-bordered table-striped"></table>
+            </div>
+        </div>
+    </div>
+    <div class="shade" id="apply_for_license">
+        <div class="download-content">
+            <a class="close" style="font-size: 40px;">×</a>
+            <form class="download-form" name="download-form">
+                <div class="download-form-title text-center">
+                    <h4>获取LicenseKey需要填写以下信息</h4>
+                </div>
+                <div class="download-form-group">
+                    <div class="download-form-group-name">收　件　人</div>
+                    <input class="download-form-group-text" id="lisense_email" type="email" placeholder="邮箱必须为企业邮箱" autofocus>
+                    <span class="error-show">邮箱格式不合法</span>
+                </div>
+                <div class="download-form-group">
+                    <div class="download-form-group-name">机　器　码</div>
+                    <input class="download-form-group-text" id="lisense_machinecode" maxlength="32" minlength="32" type="text" placeholder="请输入您的机器码">
+                    <span class="error-show">机器码有误</span>
+                </div>
+                <div class="download-form-group">
+                    <div class="download-form-group-name">代理商编号</div>
+                    <input class="download-form-group-text" id="lisense_vendor" maxlength="50" type="text" placeholder="请输入您的代理商编号">
+                    <span class="error-show">代理商编号错误</span>
+                </div>
+                <div class="download-form-submit">
+                    <div class="error-show">信息不完整！</div>
+                    <button class="btn btn-download" type="button" id="license_present">申请</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="shade">
+        <div id="license_model" class="modal">
+            <div class="modal-header">
+                <a class="close">×</a>
+                <span>申请提示</span>
+            </div>
+            <div class="modal-body text-center">
+                <p></p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-primary btn-close">关闭</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{template "tpl/datatables-script.html" .}}
+<script src="/static/js/licenseManage.js"></script>
+</body>
+</html>

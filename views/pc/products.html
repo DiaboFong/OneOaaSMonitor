@@ -1,0 +1,128 @@
+{{template "../tpl/header.html" .}}
+<div class="oneoaas">
+    <div class="oneoaas-index oneoaas-monitor monitor-banner-bg">
+        {{template "../tpl/navigation.html" .}}
+        <div class="oneoaas-wraper">
+            <div class="product-banner-monitor">
+                <div class="banner-monitor-text">
+                    <h2><img src="/static/img/pc/Monitor_banner-logo.png" alt="banner-logo"><span>Monitor</span>业务立体化监控大屏</h2>
+                    <ul class="monitor-text-info">
+                        <li>监控数据采集</li>
+                        <li>阈值告警分析</li>
+                        <li>可视化数据分析</li>
+                        <li>......</li>
+                    </ul>
+                    <div class="products-monitor-btn">
+                        <a href="/download"><button class="banner-monitor-button">申请试用</button></a>
+                    </div>
+                </div>
+                <div class="banner-monitor-img">
+                    <img src="/static/img/pc/Monitor_banner-view.png" alt="banner-view">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="oneoaas-body product-announce">
+
+        <!-- 业务看板-->
+        <div class="oneoaas-body-item appboard-modal">
+            <div class="appboard-content">
+                <h3 class="product-info-title">
+                    <img class="info-title-img" src="/static/img/pc/Monitor_product-logo.png" alt="icon-logo">
+                    <span class="info-title-text">业务看板</span>
+                </h3>
+                <div class="product-info-text">
+                    <div class="info-text">
+                        让监控为业务提供数据依据，看板功能展示业务运行的实时状态，并提供业务的拓扑图功能。通过不同级别的故障状态，展示业务的运行状态，并提供看板的功能，可以投放到大屏进行展示。某个业务出现故障，看板的颜色会随着改变。
+                        1.集中展示所有业务平台的运行状态;2.不同颜色标识业务的故障级别;3.展示业务的流程环节
+                    </div>
+                </div>
+                <div class="products-info-img">
+                    <img class="box-show" src="/static/img/pc/Monitor_appboard.png" alt="appboard">
+                </div>
+            </div>
+        </div>
+
+        <!-- 监控报表-->
+        <div class="oneoaas-body-item dataview-img">
+            <div class="dataview-modal">
+                <h3 class="product-info-title">
+                    <img class="info-title-img" src="/static/img/pc/Monitor_product-logo.png" alt="icon-logo">
+                    <span class="info-title-text">监控报表</span>
+                </h3>
+                <div class="product-info-text">
+                    <div class="info-text">
+                        报表是数据分析的一种方式，也是监控系统最重要的功能之一，从已有的监控指标中，分析出我们想要的监控数据。为业务运行提供扩容，缩容的依据。
+                        该功能可以选择任意所需的主机组、主机、监控项指标，即可获取监控数据的报表。
+                    </div>
+                </div>
+                <div class="products-info-img">
+                    <img class="box-show" src="/static/img/pc/Monitor_product-dataview.png" alt="dataview">
+                </div>
+            </div>
+        </div>
+
+        <!-- ENVISION-->
+        <div class="oneoaas-body-item monitor_envision">
+            <div class="products-info-img envision-bg">
+                <div class="envision-title">
+                    <img src="/static/img/pc/Monitor_envision-logo.png" alt="envision-logo">
+                </div>
+                <h3>客户收益：</h3>
+                <div class="envision-content">降低了IT设备故障率，提高了集团整体IT运行效率，提高了排除故障的能力，节省了人力成本</div>
+            </div>
+        </div>
+
+        <!-- 应用状态-->
+        <div class="oneoaas-body-item monitor_performance">
+            <div class="performance-modal">
+                <h3 class="product-info-title">
+                    <img class="info-title-img" src="/static/img/pc/Monitor_product-logo.png" alt="icon-logo">
+                    <span class="info-title-text">应用状态</span>
+                </h3>
+                <div class="product-info-text">
+                    <div class="info-text">
+                        应用是业务的核心组成，应用状态可以展示应用和集群的运行状态和关键指标。通过模块化的层级关系，展示应用的关键指标，为应用的监控提供有力监控数据。
+                    </div>
+                </div>
+                <div class="products-info-img">
+                    <img class="box-show" src="/static/img/pc/Monitor_performance.png" alt="appboard">
+                </div>
+            </div>
+        </div>
+
+        <!-- 监控图表-->
+        <div class="oneoaas-body-item monitor_performance">
+            <div class="performance-modal">
+                <h3 class="product-info-title">
+                    <img class="info-title-img" src="/static/img/pc/Monitor_product-logo.png" alt="icon-logo">
+                    <span class="info-title-text">监控图表</span>
+                </h3>
+                <div class="product-info-text">
+                    <div class="info-text">
+                        监控图表提供了监控系统全局的可视化图表展示，以树形图的方式展示设备分组、设备、监控项分组，层级方式展示监控图。解决了单个图像无法直观查看监控数据的问题。
+                    </div>
+                </div>
+                <div class="products-info-img">
+                    <img class="box-show" src="/static/img/pc/Monitor_datagraph.png" alt="appboard">
+                </div>
+                <div class="products-monitor-btn performance-btn">
+                    <a href="/download"><button class="banner-monitor-button">申请试用</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{template "../tpl/footer.html" .}} {{template "../tpl/scripts.html" .}}
+<script>
+    var swiper3 = new Swiper('.products-items .swiper-container', {
+        speed: 1200,
+        nextButton: '.products-items .swiper-button-next',
+        prevButton: '.products-items .swiper-button-prev',
+        direction: 'horizontal', //横向移动
+        loop: true,
+        pagination : '.swiper-pagination',
+        paginationClickable :true,
+        //autoplay: 3000  //可选选项，自动滑动
+    });
+</script>

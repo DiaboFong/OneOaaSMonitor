@@ -1,0 +1,33 @@
+{{template "tpl/manage-header.html" .}}
+{{template "tpl/manage-sidebar.html" .}}
+<section class="manage-content">
+    <div class="app-board">
+        <div class="datatable">
+            <div class="datatable-header">
+                <h3 class="pull-left">用户管理列表</h3>
+                <button class="btn btn-primary pull-right" id="license_accredit">证书授权</button>
+            </div>
+            <div class="datatable-body">
+                <table id="user" class="table table-bordered table-striped"></table>
+            </div>
+        </div>
+    </div>
+    <div class="shade">
+        <div id="user_model" class="modal">
+            <div class="modal-header">
+                <a class="close">×</a>
+                <span>授权提示</span>
+            </div>
+            <div class="modal-body text-center">
+                <p></p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-primary btn-close">关闭</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{template "tpl/datatables-script.html" .}}
+<script src="/static/js/user.js"></script>
+</body>
+</html>

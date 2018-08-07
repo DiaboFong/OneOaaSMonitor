@@ -1,0 +1,34 @@
+appname = oneoaas_web
+httpport = 4007
+runmode = dev
+#dbtype = sqlite3
+sms_user = OneOaaS
+sms_key = SqaHdxKJLDKaKstQCRbePVA9nbOx4oLL
+sms_tid = 7130
+
+
+
+
+#database
+dbtype = "mysql"
+dbuser = "oneoaas_web"
+dbpass = "oneoaas_web"
+dbhost = "10.0.2.101"
+dbport = 3306
+dbname = "oneoaas_web"
+
+#dbtype = "mysql"
+dbuser = "oneoaas_web"
+dbpass = "oneoaas_web"
+dbhost = "10.0.2.101"
+dbport = 3306
+dbname = "oneoaas_web"
+
+#email
+username_email="monitor.apply@oneoaas.com"
+password_email="Jci9^Y~e45f=KBPy#rwH?<"
+host_email="smtp.exmail.qq.com"
+port_email=465
+
+#site_domain
+oneoaas_domain="http://www.oneoaas.com"

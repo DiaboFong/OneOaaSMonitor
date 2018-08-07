@@ -1,0 +1,45 @@
+{{template "tpl/header.html" .}}
+<div class="oneoaas">
+    <div class="oneoaas-index oneoaas-appyl-bg">
+        {{template "tpl/navigation.html" .}}
+        <div class="oneoaas-wraper">
+            <a name="top" id="top"></a>
+            <div class="oneoaas-body-item oneoaas-shadow" style="background: transparent;margin-bottom: 600px">
+                <div class="container">
+                    <div class="version-content">
+                        <div class="download-content">
+                            <form class="download-form" name="download-form">
+                                <div class="download-form-title">
+                                    <h4>获取LicenseKey需要填写以下信息</h4>
+                                </div>
+                                <div class="download-form-group">
+                                    <div class="download-form-group-name">邮箱</div>
+                                    <input class="download-form-group-text" id="lisense_email" type="email" placeholder="邮箱必须为企业邮箱">
+                                    <span class="error-show">邮箱格式不合法</span>
+                                </div>
+                                <div class="download-form-group">
+                                    <div class="download-form-group-name">机器码</div>
+                                    <input class="download-form-group-text" id="lisense_machinecode" maxlength="32" minlength="32" type="text" placeholder="请输入您的机器码">
+                                    <span class="error-show">机器码有误</span>
+                                </div>
+                                <div class="download-form-group">
+                                    <div class="download-form-group-name">代理商编号</div>
+                                    <input class="download-form-group-text" id="lisense_vendor" maxlength="50" type="text" placeholder="请输入您的代理商编号">
+                                    <span class="error-show">代理商编号错误</span>
+                                </div>
+                                <div class="download-form-submit">
+                                    <div class="error-show">信息不完整！</div>
+                                    <button class="btn btn-download" type="button" id="present">申请</button>
+                                </div>
+                            </form>
+                            <div class="download-contact-information">如有疑问，请拨打客服电话<a href="tel:021-6095 0835"> 021-6095 0835</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{template "tpl/footer.html" .}}
+{{template "tpl/scripts.html" .}}
+<script type="text/javascript" src="/static/js/lisense.js"></script>

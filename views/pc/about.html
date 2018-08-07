@@ -1,0 +1,185 @@
+{{template "../tpl/header.html" .}}
+<div class="oneoaas">
+    {{template "../tpl/navigation.html" .}}
+    <!-- Oneoaas 头部 -->
+    <div class="oneoaas-about-banner oneoaas-about-banner-bg">
+    <!--    <canvas class="oneoaas-about-banner-canvas" id="canvas"></canvas>-->
+        <div class="about-banner-content">
+            <label class="about-center-modal-public">公有云</label>
+            <label class="about-center-modal-preivce">私有云</label>
+            <label class="about-center-modal-yunserver">运营平台</label>
+            <span class="about-center-modal-text">OneOaaS</span>
+            <label class="about-center-modal-auto">自动化运维工具</label>
+            <label class="about-center-modal-room">物理机房</label>
+            <label class="about-center-modal-flow">企业组织流程</label>
+        </div>
+    </div>
+
+    <!-- 关于我们 简介-->
+    <div class="oneoaas-body-item about-content-item">
+        <div class="about-content-modal">
+            <h2 class="body-item-modal-title m-modal-title">关于我们</h2>
+            <h3 class="body-item-modal-subheading m-modal-subheading">About Us</h3>
+            <div class="about-item-modal about-item-me">
+                <div class="about-user-info">
+                    <p>
+                        <span class="about-user-info-bold">OneOaaS</span>为上海皓西信息科技有限公司的品牌（以下简称：OneOaaS）成立于2014年,公司为用户提供运维工具，解决方案、架构设计和培训服务。</br>
+                        公司由一批资深运维专家组成,他们对云计算和自动化运维有着独特的见解, 对技术有着狂热的追求 对各行业务有着透彻的理解，能够为用户提供切实有效的解决方案，并善于为客户解决运维难题。</br>
+                    </p>
+                    <p>
+                        <span class="about-user-info-bold">OneOaaS</span>提倡用理论指导运维的方式，帮助客户建立运维意识，制定运维规范，使用成熟高效的运维工具去迎接大规模运维问题。 </br>
+                        公司自研的运维工具，能够有效解决运维中的资产管理，配置管理，开发测试，代码管理，监控告警等相关问题。真正的做到运筹帷帐之中，决胜千里之外。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 合作伙伴 简介-->
+    <div class="oneoaas-body-item about-content-item">
+        <div class="about-content-modal">
+            <h2 class="body-item-modal-title m-modal-title">合作伙伴</h2>
+            <h3 class="body-item-modal-subheading m-modal-subheading">Our Partner</h3>
+            <div class="about-item-modal about-item-me">
+                <div class="about-user-info m-user-icon">
+                    <div class="user-info-icon">
+                        <img src="/static/img/pc/blueking.png" alt="">
+                    </div>
+                    <div class="user-info-text">
+                        <h6>蓝鲸智云</h6>
+                        <p>
+                            <strong>蓝鲸智云，简称蓝鲸，是腾讯游戏运营部“腾讯智营”下的一个子品牌。它是一套基于PaaS的技术解决方案，
+                        提供了完善的前后台开发框架、调度引擎、公共组件等模块，帮助业务的产品和技术人员快速构建低成本、
+                        免运维的支撑工具和运营系统。</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="about-user-info m-user-icon m-user-zabbix">
+                    <div class="user-info-icon">
+                        <img src="/static/img/pc/zabbix.png" alt="">
+                    </div>
+                    <div class="user-info-text">
+                        <h6>ZABBIX</h6>
+                        <p>
+                            <strong>Zabbix是一个企业级的高度集成开源监控软件，提供分布式监控解决方案，可以用来监控设备、服务等的可用性和性能，其产品不分企业版和社区版，是一个真正的源代码开放产品，用户可以自由下载并使用该软件。</br></strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 联系我们 简介-->
+    <div class="oneoaas-body-item about-content-item">
+        <div class="about-contact-modal">
+            <h2 class="body-item-modal-title m-modal-title">联系我们</h2>
+            <h3 class="body-item-modal-subheading m-modal-subheading">Contact Us</h3>
+            <div class="about-modal-map">
+                <img class="about-map" src="/static/img/pc/about-map.jpg" alt="map">
+            </div>
+            <div class="m-about-modal-map">
+                <img class="about-map" src="/static/img/mobile/about-map.png" alt="map">
+            </div>
+        </div>
+    </div>
+</div>
+{{template "../tpl/footer.html" .}}
+{{template "../tpl/scripts.html" .}}
+<!--
+<script type="text/javascript">
+        var sizeHei = document.body.clientWidth;
+        var cabvas_h = 520;
+        console.log(sizeHei)
+        if (sizeHei>1500){
+            cabvas_h = 520
+        }else if(sizeHei>720) {
+            cabvas_h = 330
+        }else {
+            cabvas_h = 265
+
+        }
+    // canvas start
+    var canvas = document.getElementById('canvas'),
+        ctx = canvas.getContext('2d'),
+        h = canvas.height = cabvas_h,
+        w = canvas.width = window.innerWidth,
+        hue = 217,
+        stars = [],
+        count = 0,
+        maxStars = 1200;
+
+    var canvas2 = document.createElement('canvas'),
+        ctx2 = canvas2.getContext('2d');
+        canvas2.width = 100;
+        canvas2.height = 100;
+        
+    var half = canvas2.width / 2,
+        gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
+    gradient2.addColorStop(0.025, '#fff');
+    gradient2.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
+    gradient2.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
+    gradient2.addColorStop(1, 'transparent');
+    ctx2.fillStyle = gradient2;
+    ctx2.beginPath();
+    ctx2.arc(half, half, half, 0, Math.PI * 2);
+    ctx2.fill();
+    // End cache
+    function random(min, max) {
+      if (arguments.length < 2) {
+        max = min;
+        min = 0;
+      }
+      if (min > max) {
+        var hold = max;
+        max = min;
+        min = hold;
+      }
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    function maxOrbit(x, y) {
+      var max = Math.max(x, y),
+        diameter = Math.round(Math.sqrt(max * max + max * max));
+      return diameter / 2;
+    }
+    var Star = function() {
+      this.orbitRadius = random(maxOrbit(w, h));
+      this.radius = random(60, this.orbitRadius) / 12;
+      this.orbitX = w / 2;
+      this.orbitY = h / 2;
+      this.timePassed = random(0, maxStars);
+      this.speed = random(this.orbitRadius) / 900000;
+      this.alpha = random(2, 10) / 10;
+      count++;
+      stars[count] = this;
+    }
+    Star.prototype.draw = function() {
+      var x = Math.sin(this.timePassed) * this.orbitRadius + this.orbitX,
+        y = Math.cos(this.timePassed) * this.orbitRadius + this.orbitY,
+        twinkle = random(10);
+      if (twinkle === 1 && this.alpha > 0) {
+        this.alpha -= 0.05;
+      } else if (twinkle === 2 && this.alpha < 1) {
+        this.alpha += 0.05;
+      }
+      ctx.globalAlpha = this.alpha;
+      ctx.drawImage(canvas2, x - this.radius / 2, y - this.radius / 2, this.radius, this.radius);
+      this.timePassed += this.speed;
+    }
+    for (var i = 0; i < maxStars; i++) {
+      new Star();
+    }
+    function animation() {
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.globalAlpha = 0.8;
+      ctx.fillStyle = 'hsla(' + hue + ', 64%, 6%, 1)';
+      ctx.fillRect(0, 0, w, h);
+
+      ctx.globalCompositeOperation = 'lighter';
+      for (var i = 1, l = stars.length; i < l; i++) {
+        stars[i].draw();
+      };
+      window.requestAnimationFrame(animation);
+    }
+    animation();  // canvas end
+  </script>-->

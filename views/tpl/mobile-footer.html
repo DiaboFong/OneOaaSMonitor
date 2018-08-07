@@ -1,0 +1,127 @@
+<div class="oneoaas-footer">
+    <div class="footer-container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="text-center">
+                    <span class="text-centerbg"><img src="/static/img/phone/logo-blue.png" alt=""></span>
+                </h2>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-menu-list" id="footmenu">
+                    <li class="list-li list-more">产品
+                        <span class="list-liafter"></span>
+                        <ul class="list-product">
+                            <a href="/m/products/monitor-ee">
+                                <li>OneOaaS Monitor</li>
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="list-li list-more">社区版
+                        <span class="list-liafter"></span>
+                        <ul class="list-product">
+                            <a href="/m/products/monitor-ce">
+                                <li>Monitor社区版</li>
+                            </a>
+                            <!--<li>Graphtree</li>
+                            <li>Zabbix工具</li>-->
+                        </ul>
+                    </li>
+                    <!--<li class="list-li list-more">解决方案
+                        <span class="list-liafter"></span>
+                        <ul class="list-product">
+                            <li>解决方案</li>
+                            <li>行业痛点</li>
+                            <li>我们的优势</li>
+                        </ul>
+                    </li>-->
+                    <a href="/m/about">
+                        <li class="list-li">关于我们</li>
+                    </a>
+                </ul>
+                <div class="footer-map">
+                    <div class="footer-address">
+                        <ul class="address-list">
+                            <li>地址：上海市普陀区中江路879号天地软件园27栋308</li>
+                            <li>邮箱：support#oneoaas.com(#替换为@)</li>
+                            <li>手机：<a href="tel:181 2120 2511">181 2120 2511</a></li>
+                            <li>固话：<a href="tel:021 6095 0835">021 6095 0835</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-barcodes">
+                        <img src="/static/img/phone/qrcode.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#top" class="back-top" target="_self"></a>
+</div>
+</body>
+<script src="/static/js/jquery-2.1.1.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/swiper-3.3.1.jquery.min.js"></script>
+<script language="javascript" type="text/javascript">
+    $(function() {
+        var swiper1 = new Swiper('.oneoaas-wraper .swiper-container', {
+            pagination: '.oneoaas-wraper .swiper-pagination', // 如果需要分页器
+            paginationClickable: '.oneoaas-wraper .swiper-pagination',
+            nextButton: '.oneoaas-wraper .swiper-button-next', // 如果需要前进后退按钮
+            prevButton: '.oneoaas-wraper .swiper-button-prev', // 如果需要前进后退按钮
+            speed: 500,
+            direction: 'horizontal', //横向移动
+            loop: true, //是否循环播放
+            autoplay: 5000 //可选选项，自动滑动
+        });
+        var swiper2 = new Swiper('.my-product .swiper-container', {
+            centeredSlides: true,
+            slidesPerView: "auto",
+            roundLengths: true,
+            direction: 'horizontal', //横向移动
+            paginationClickable: true,
+            initialSlide: 1, //初始化展示第几页
+            spaceBetween: 30,
+            followFinger: true,
+            freeMode: true
+        });
+
+        var swiper3 = new Swiper('.my-user .swiper-container', {
+            effect: 'coverflow', //滑动方式
+            centeredSlides: true, //slide模块居中
+            roundLengths: true, //每个slide之间的拉伸值，越大slide靠得越紧。 默认0
+            initialSlide: 1, //初始化展示第几页
+            speed: 600, //滑动动画速度
+            followFinger: true,
+            slidesPerView: "auto", //一屏展示几页
+            direction: 'horizontal', //横向移动
+            coverflow: { //3D界面
+                rotate: 0, //旋转角度
+                stretch: 80, //每个slide之间的拉伸值，越大slide靠得越紧。 默认0。
+                depth: 300, //slide的位置深度。值越大z轴距离越远，看起来越小。 默认100。
+                modifier: 2, //depth和rotate和stretch的倍率，相当于depth*modifier、rotate*modifier、stretch*modifier，值越大这三个参数的效果越明显。默认1。
+                slideShadows: false //开启slide阴影。默认 true。
+            }
+        });
+        $('.navbar-muen').bind('touchstart', function() {
+            if ($('.navbar-list').position().top <= "-1") {
+                $('.navbar-list').css('top', '0');
+            } else {
+                $('.navbar-list').css('top', '-100%');
+            }
+        });
+        $('#footmenu .list-more').bind('touchstart', function() {
+            $(this).find('.list-liafter').addClass('rotate').parent().siblings().find('.list-liafter').removeClass('rotate')
+            $(this).find('.list-product').show(500).parent().siblings().find('.list-product').hide(500);
+        });
+        $(".back-top").hide();
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 80) {
+                $(".back-top").fadeIn();
+            } else {
+                $(".back-top").fadeOut();
+            }
+        });
+    });
+</script>
+
+</html>

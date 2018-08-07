@@ -1,0 +1,54 @@
+{{template "tpl/header.html" .}}
+<style>
+    .oneoaas-appyl-bg{
+        background-size:100% 100%;
+        text-align: center;
+        height:600px;
+    }
+    .container{
+        position: relative;
+        top:200px;
+    }
+    .download-form .download-form-title h4{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+</style>
+<div class="oneoaas">
+    <div class="oneoaas-appyl-bg ">
+        {{template "tpl/navigation.html" .}}
+        <div class="oneoaas-wraper">
+            <div class="oneoaas-body-item oneoaas-shadow" style="background: transparent;">
+                <div class="container">
+                    <div class="version-content">
+                        <div class="download-content" >
+                            <form class="download-form" name="download-form">
+                                <div class="download-form-title">
+                                    <h4>登　　录</h4>
+                                </div>
+                                <div class="download-form-group">
+                                    <div class="download-form-group-name">用户名</div>
+                                    <input class="download-form-group-text" id="login_username" type="text" autofocus autocomplete>
+                                    <span class="error-show">请填写用户名!</span>
+                                </div>
+                                <div class="download-form-group">
+                                    <div class="download-form-group-name">密　码</div>
+                                    <input class="download-form-group-text" id="login_password" maxlength="" minlength="" type="password">
+                                    <span class="error-show"></span>
+                                </div>
+                                <div class="download-form-submit">
+                                    <button class="btn btn-download" type="button" id="login_login">登　　录</button>
+                                </div>
+                            </form>
+                            <div class="download-contact-information">如有疑问，请拨打客服电话<a href="tel:021-6095 0835"> 021-6095 0835</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{template "tpl/scripts.html" .}}
+<script src="/static/js/login.js"></script>
+</body>
+</html>

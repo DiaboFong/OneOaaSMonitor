@@ -1,0 +1,4054 @@
+/* 头部设置*/
+.oneoaas{
+    margin-bottom: 50px;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    background: transparent;
+    margin: 0;
+    border: 0;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+.navbar .topbar{
+    font-size:15px;
+    overflow: hidden;
+    max-width: 1440px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+.navbar .topbar .navbar-header{
+    float: left;
+}
+.navbar .topbar .navbar-icon{
+    display: none;
+}
+.navbar .topbar .navbar-header .navbar-logo{
+    float: left;
+    padding: 27px 20px;
+}
+.navbar .common-topbar-nav{
+    font-size: 15px;
+    overflow: hidden;
+    float: right;
+}
+.navbar .common-topbar-nav .common-topbar-nav-list{
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.navbar .common-topbar-nav .common-topbar-nav-list li{
+    float: left;
+    height: 90px;
+    line-height: 90px;
+    padding: 0 26px;
+    position: relative;
+    color: #fff;
+    font-size: 17px;
+}
+.navbar .common-topbar-nav .common-topbar-nav-list li a{
+    color: #fff;
+    font-family: "Microsoft YaHei", sans-serif;
+    display: block;
+    padding: 0 5px;
+}
+.navbar .common-topbar-nav .common-topbar-nav-list li a.menu:hover{
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+}
+.navbar .common-topbar-nav .common-topbar-nav-list li a.active{
+    border-bottom: 2px solid #fff;
+}
+.navbar .common-topbar-nav .common-topbar-nav-list a.nav-list-li-apply{
+    padding: 12px 27px;
+    background: #2DCC70;
+    display: inline;
+    border-radius: 2px;
+    transition:.3s all ease;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.3);
+    -webkit-box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.3);
+    -moz-box-shadow:  0px 10px 15px 0px rgba(53,128,255,0.3);
+    text-decoration: none;
+}
+.navbar .common-topbar-nav .common-topbar-nav-list a.nav-list-li-apply:hover{
+    background: rgba(0,255,0,.6);
+    transition:.3s all ease;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+}
+.Copyright{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    color: #999;
+}
+.body-item-modal-corporation .m-item-modal-icon{
+    display: none;
+}
+.footer .m-footer-top-bg{
+    display: none;
+}
+.oneoaas-body-item .m-about-modal-map{
+    display: none;
+}
+
+/*banner 设置*/
+.oneoaas .oneoaas-header::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background:#F7F8FC url('/static/img/pc/index_banner.png') no-repeat ;
+    background-size: 100% 100%;
+}
+.oneoaas-index{
+    position: relative;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 1176px;
+    text-align: center;
+    background: #f6f8fc;
+}
+.oneoaas-header-bg{
+    z-index: 99;
+    width: 100%;
+    background: url(/static/img/pc/index_banner.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.oneoaas-index .oneoaas-wraper{
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    top: 150px;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-monitor{
+    height:100%;
+    width: 960px;
+    margin: 0 auto;
+    position:relative;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-title{
+    height: 220px;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-map{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    height: 492px;
+    background: url('/static/img/pc/index_banner-map.png') no-repeat 0 0;
+    background-size: 100% 100%;
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-map:hover{
+    transform:  rotateX(3deg) rotateY(4deg);
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-title h2{
+    font-size: 35px;
+    color: #fff;
+    padding-top: 30px;
+    text-align: center;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-title h1{
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-map .banner-monitor-line{
+    position: absolute;
+    left: -139px;
+    top:-17px;
+    height: 320px;
+    width: 1200px;
+    background: url('/static/img/pc/index_banner-line.png') no-repeat 0 0;
+    background-size: 100% 100%;
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-map .banner-monitor-line:hover{
+    transform: rotateX(3deg) rotateY(6deg);
+    background-size: 102% 105%;
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-btn{
+    position: absolute;
+    width: 100%;
+    bottom: 90px;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-btn button.banner-monitor-button{
+    border: 0;
+    background: #fff;
+    border-radius: 30px;
+    padding: 12px 60px;
+    color: #3580ff;
+    outline: none;
+}
+.oneoaas-index .oneoaas-wraper .banner-monitor-btn button.banner-monitor-button:hover{
+    box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.3);
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+}
+
+/*oneoaas footer*/
+.footer{
+    background: url("/static/img/pc/footer-bg.png")no-repeat;
+    background-size: 100% 100%;
+    height: 986px;
+    position: relative;
+}
+.footer .footer-content-item{
+    padding-top: 350px;
+    max-width: 1440px;
+    min-width: 1440px;
+    margin: 0 auto;
+}
+.footer .footer-content-item .content-item-text{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.footer .footer-content-item .content-item-text .item-text-modal{
+    width: 25%;
+    float: left;
+}
+.footer .footer-content-item .content-item-text .item-text-modal .text-modal-head{
+    font-size: 20px;
+    color: #333;
+    padding: 15px 0;
+}
+.footer .footer-content-item .content-item-text .item-text-modal .text-modal-code{
+    padding: 10px 0;
+    font-size: 18px;
+    color: #999;
+}
+.footer .footer-content-item .content-item-text .item-text-modal .text-modal-code a{
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+}
+.footer .footer-content-item .content-item-text .item-text-modal .text-modal-code img{
+    cursor: pointer;
+}
+.footer .footer-content-item .content-item-text .item-text-modal .text-modal-qrcode{
+    display: none;
+    transition:0.3s all ease;
+    -webkit-transition:0.3s all ease;
+    -moz-transition:0.3s all ease;
+}
+.footer .footer-content-item .content-item-text .item-text-modal .text-modal-qrcode img{
+    transition:0.3s all ease;
+    -webkit-transition:0.3s all ease;
+    -moz-transition:0.3s all ease;
+}
+.footer .back-top{
+    position: fixed;
+    right: 5%;
+    bottom: 8%;
+    width: 50px;
+    height: 50px;
+    background: url('/static/img/pc/index_top.png')no-repeat;
+    background-size: 100% 100%;
+    z-index: 9999;
+}
+.footer .footer-content-item .m-footer{
+    display: none;
+}
+/* footer 产品及联系电话样式*/
+.footer .footer-content-item .content-item-text .item-text-modal .text-modal-code a{
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+
+.footer .footer-content-item .content-item-text .item-text-modal .text-modal-code a:hover{
+    font-size: 18px;
+    color: #3580ff;
+    text-decoration: none;
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+.oneoaas-appyl-bg{
+    background: url("/static/img/pc/apply-banner.png")no-repeat;
+    background-size: 100% 50%;
+}
+
+/* 客户案例 logo 放大溢出隐藏 */
+.user-info-icon{
+    overflow: hidden;
+}
+/* 申请试用按钮样式 */
+.version-content{
+    width: 100%;
+    padding: 20px;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+.version-content .version-content-model{
+    margin:0;
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    padding:0;
+    border-radius:5px;
+    -webkit-box-shadow:0 0 10px #333;
+    -moz-box-shadow:0 0 10px #333;
+    box-shadow:0 0 10px #333;
+}
+
+
+.btn-download{
+    width: 100%;
+    border-radius: 2px;
+    background: #3580ff;
+    color: #fff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    padding: 10px 12px;
+}
+.btn-probation{
+    width: 100%;
+    border-radius: 2px;
+    background: #fff;
+    border:1px solid #3580ff ;
+    color: #3580ff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    padding: 10px 12px;
+}
+.btn-probation:hover{
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-box-shadow:0 0 10px #3580ff;
+    -moz-box-shadow:0 0 10px #3580ff;
+    box-shadow:0 0 10px #3580ff;
+    color: #3580ff;
+}
+.btn-download:hover{
+    -webkit-box-shadow:0 0 10px #3580ff;
+    -moz-box-shadow:0 0 10px #3580ff;
+    box-shadow:0 0 10px #3580ff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    color: #fff;
+}
+.btn-download .glyphicon-download-alt{
+    padding-right: 20px;
+}
+
+.download-content{
+    background: #fff;
+    padding: 30px;
+    width: 500px;
+    margin: 0 auto;
+    -webkit-box-shadow:0 0 8px #666;
+    -moz-box-shadow:0 0 8px #666;
+    box-shadow:0 0 8px #666;
+}
+.download-content .download-form-title{
+    margin-bottom: 30px;
+}
+.download-content .download-form-title h4{
+    font-size: 20px;
+    color: #333;
+}
+.download-content .download-form{
+    padding:30px 20px;
+}
+.download-content .download-form-group{
+    margin-bottom: 20px;
+    position: relative;
+}
+.download-content .download-form-group .download-form-group-name{
+    font-size: 16px;
+    position: absolute;
+    top:14px;
+    left:15px;
+    color: #666;
+}
+.download-content .download-form-group .download-form-group-text{
+    outline: none;
+    width: 100%;
+    background: #FFF;
+    border: 1px solid #D7D8D9;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 2px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: 0;
+    padding-left: 100px;
+    box-shadow: none;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    font-size: 15px;
+}
+.download-content .download-form-group .download-form-group-text::-webkit-input-placeholder{color:#dbdbdb;font-size: 15px}
+.download-content .download-form-group .download-form-group-text::-moz-placeholder{color:#dbdbdb;font-size: 15px}
+.download-content .download-form-group .download-form-group-text:-moz-placeholder{color:#dbdbdb;font-size: 15px}
+
+.download-content .download-form-group .download-form-group-text:hover{
+    border: 1px solid #3580ff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+}
+.download-content .download-form-group .download-form-group-text:focus{
+    border: 1px solid #3580ff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-box-shadow:0 0 4px #3580ff;
+    -moz-box-shadow:0 0 4px #3580ff;
+    box-shadow:0 0 4px #3580ff;
+}
+.download-content .download-form-submit{
+    position: relative;
+    margin-top: 40px;
+}
+.download-content .download-form-group-tpis{
+    color: red;
+    margin-top: 20px;
+    text-align: right;
+}
+.download-content .error-show{
+    position: absolute;
+    right:15px;
+    bottom: -20px;
+    color: red;
+    display: none;
+}
+.download-content .download-contact-information{
+    color: #999;
+}
+.download-content .btn-phone{
+    width: 100%;
+    border-radius: 2px;
+    background: #3580ff;
+    border:1px solid #3580ff ;
+    color: #fff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    padding: 6px 12px;
+}
+.download-content .download-form-group-phone{
+    position: absolute;
+    right:10px;
+    top:8px;
+}
+.download-content .btn-sent{
+    cursor: not-allowed;
+    background: #ddd;
+    border: 1px solid #ddd;
+    outline:none;
+    padding: 6px 10px;
+    color: #3580ff;
+}
+.btn-download:focus{
+    color: #fff;
+}
+.btn-probation:focus{
+    color: #3580ff;
+}
+
+.download-success{
+    height: 200px;
+    line-height: 200px;
+    display: none;
+    font-size: 25px;
+    color: #5cb85c;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+
+}
+.enterprise-tel p{
+    font-size: 14px;
+}
+.download-code{
+    background: #0a0a0a;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+}
+.download-code-2{
+    margin-top: 20px;
+}
+.download-code-2 p{
+    margin-bottom: 5px;
+}
+.download-code p{
+    font-size: 14px;
+}
+.oneoaas-error-404{
+    width: 100%;
+    margin-top: 100px;
+}
+.oneoaas-error-404 .oneoaas-error-404-bg{
+    position: relative;
+    width: 100%;
+    background: url("../img/pc/404.png")top no-repeat;
+    background-size:50%;
+    height: 500px;
+}
+.oneoaas-error-404 .oneoaas-error-404-btn{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+}
+.oneoaas-error-404 .oneoaas-error-404-btn button{
+    background: #fff;
+    color: #3580ff;
+    border: 1px solid #3580ff;
+    border-radius: 25px;
+    padding: 6px 40px;
+    margin-left: 30px;
+}
+
+.oneoaas-error-401{
+    width: 100%;
+}
+.oneoaas-error-401 .oneoaas-error-401-bg{
+    position: relative;
+    width: 100%;
+    background: url("../img/pc/401.png")top no-repeat;
+    background-size:50%;
+    height: 500px;
+}
+.oneoaas-error-401 .oneoaas-error-401-btn{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+}
+.oneoaas-error-401 .oneoaas-error-401-btn button{
+    background: #fff;
+    color: #3580ff;
+    border: 1px solid #3580ff;
+    border-radius: 25px;
+    padding: 6px 40px;
+    margin-left: 30px;
+}
+
+.oneoaas-error-500{
+    width: 100%;
+}
+.oneoaas-error-500 .oneoaas-error-500-bg{
+    position: relative;
+    width: 100%;
+    background: url("../img/pc/500.png")top no-repeat;
+    background-size:50%;
+    height: 500px;
+}
+.oneoaas-error-500 .oneoaas-error-500-btn{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+}
+.oneoaas-error-500 .oneoaas-error-500-btn button{
+    background: #fff;
+    color: #3580ff;
+    border: 1px solid #3580ff;
+    border-radius: 25px;
+    padding: 6px 40px;
+    margin-left: 30px;
+}
+
+/* 移动端 320*768*/
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .navbar{
+        width: 100%;
+        height: 60px;
+        background: transparent;
+        margin: 0;
+        border: 0;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+    }
+    .navbar .topbar {
+        font-size: 13px;
+        overflow: hidden;
+        max-width: 720px;
+        min-width: 200px;
+        margin: 0 auto;
+    }
+    .navbar .topbar .navbar-header{
+        width:120px;
+    }
+    .navbar .topbar .navbar-header .navbar-logo{
+        float: left;
+        padding: 19px 20px;
+    }
+    .navbar .topbar .navbar-icon{
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+        display: block;
+    }
+    .navbar .topbar .navbar-icon img{
+        width: 100%;
+    }
+    .navbar .common-topbar-nav{
+        position: absolute;
+        top:45px;
+        right: 20px;
+        background: rgba(0,0,0,.7);
+        width: 140px;
+        border-radius: 3px;
+        font-size: 13px;
+        display: none;
+        z-index: 9999;
+    }
+    .navbar .common-topbar-nav .common-topbar-nav-list{
+        margin: 0;
+        border: 0;
+        padding: 20px 0;
+    }
+    .navbar .common-topbar-nav .common-topbar-nav-list li{
+        float: left;
+        width: 100%;
+        height: auto;
+        line-height: normal;
+        text-align: right;
+        padding: 10px 15px;
+        position: relative;
+        color: #fff;
+        font-size: 13px;
+    }
+    .navbar .common-topbar-nav .common-topbar-nav-list a.nav-list-li-apply{
+        width: 100%;
+        padding: 0;
+        height: 33px;
+        line-height: 33px;
+        text-align: center;
+        display: inline-block;
+        box-shadow: none;
+    }
+    .navbar .common-topbar-nav .common-topbar-nav-list li a.active{
+        border-bottom: 0;
+        display: inline-block;
+    }
+    .navbar .common-topbar-nav .common-topbar-nav-list li a.menu:hover{
+        border-bottom: 0;
+    }
+    .navbar .common-topbar-nav .common-topbar-nav-list li a:active{
+        border-bottom: 0;
+    }
+    .oneoaas-index{
+        height: 415px;
+    }
+    .oneoaas .oneoaas-header::after{
+        z-index: 8;
+        width: 100%;
+        height: 100%;
+        background: #F7F8FC url(/static/img/mobile/m_index-banner.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .oneoaas-index .oneoaas-wraper{
+        top:50px;
+        z-index: 9;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-monitor{
+        width:100%;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-title{
+        height: auto;
+        padding: 10px 0;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-title h2{
+        font-size: 16px;
+        padding-top:10px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-title h1{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-map{
+        width: 75%;
+        margin: 0 auto;
+        height: 140px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-map .banner-monitor-line{
+        width: 120%;
+        height: 90px;
+        left: -40px;
+        top: -10px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-btn{
+        bottom: 5px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-btn button.banner-monitor-button{
+        padding: 7px 80px;
+        -webkit-box-shadow:0 0 10px rgba(53,128,255,.8);
+        -moz-box-shadow:0 0 10px rgba(53,128,255,.8);
+        box-shadow:0 0 10px rgba(53,128,255,.8);
+    }
+
+    .oneoaas-body{
+       background: #fff;
+    }
+    .oneoaas-body .surge-help .modal-surge-help{
+        position: relative;
+        width: 100%;
+        background:#F7F8FC;
+    }
+    .oneoaas-body .body-item-modal .body-item-modal-title{
+        font-size: 17px;
+        color: #333;
+        text-align: center;
+        margin: 0;
+    }
+    .oneoaas-body .body-item-modal .body-item-modal-subheading{
+        font-size: 15px;
+        color: #999;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+    }
+    .oneoaas-body .surge-help .modal-surge-help .item-modal-content{
+        padding: 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .oneoaas-body .surge-help .m-content-bg{
+        background:#fff url("/static/img/mobile/m_index-body-bg.png")no-repeat bottom;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 50px;
+    }
+    .oneoaas-body .surge-help .modal-surge-help .item-modal-content .modal-content-top{
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .oneoaas-body .surge-help .modal-surge-help .item-modal-content .modal-content-top .content-module{
+        width: 50%;
+        text-align: center;
+        float: left;
+    }
+    .oneoaas-body .surge-help .modal-surge-help .item-modal-content .modal-content-top .content-module .content-module-icon img{
+        width: 50px;
+    }
+    .oneoaas-body .surge-help .modal-surge-help .item-modal-content .modal-content-top .content-module .content-module-icon{
+        width: 100%;
+    }
+    .oneoaas-body .surge-help .modal-surge-help .item-modal-content .modal-content-top .content-module .content-module-info{
+        font-size: 11px;
+        color: #999;
+    }
+    .oneoaas-body .surge-help .modal-surge-help .item-modal-content .modal-content-top .content-module .content-module-info h6{
+        font-size: 15px;
+        color: #666;
+    }
+    .oneoaas-body .surge-help .modal-surge-help .item-modal-content .modal-content-top .content-module .content-module-info .module-info-text{
+        padding:3px 20px;
+        text-align: left;
+        text-indent: 1rem;
+    }
+    .oneoaas-body .body-products{
+        margin-top: 50px;
+        position: relative;
+    }
+    .oneoaas-body .body-products h2{
+        font-size: 16px;
+        color: #666;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .oneoaas-body .body-products .item-modal-products-btn{
+        position: relative;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    button.modal-products-btn-apply{
+        padding: 8px 26px;
+        background: #2DCC70;
+        display: inline-block;
+        border: 1px #2DCC70;
+        outline:none;
+        font-size: 13px;
+        color: #fff;
+        border-radius: 2px;
+        -webkit-box-shadow:0 4px 10px rgba(53,128,255,.5);
+        -moz-box-shadow:0 4px 10px rgba(53,128,255,.5);
+        box-shadow:0 4px 10px rgba(53,128,255,.5);
+    }
+    .oneoaas-body .body-item-modal .item-modal-content{
+        width: 100%;
+        padding: 40px;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content img{
+        width: 100%;
+        z-index: 10;
+    }
+    .oneoaas-body .body-businesses{
+        margin-top: 50px;
+    }
+    .oneoaas-body .body-businesses .modal-businesses{
+        width: 100%;
+        padding: 40px;
+    }
+    .body-item-modal-corporation .item-modal-icon{
+        display: none;
+    }
+    .body-item-modal-corporation .m-item-modal-icon{
+        display: block;
+    }
+    .body-item-modal-corporation .m-item-modal-icon .modal-icon-bank{
+        width:49%
+    }
+    .body-item-modal-corporation .m-item-modal-icon .modal-icon-quaijca{
+        width:49%
+    }
+    .body-item-modal-corporation .m-item-modal-icon .modal-icon-lenovo{
+        width:32%
+    }
+
+    .footer{
+        width: 100%;
+        height: 700px;
+        background: #F7F8FC;
+        margin-top: 180px;
+    }
+    .footer .m-footer-top-bg{
+        position: absolute;
+        top:-180px;
+        left:0;
+        width: 100%;
+        display: block;
+        height: 180px;
+        background: url("/static/img/pc/footer-bg.png")no-repeat center;
+        background-size: 100% 100%;
+    }
+    .footer .footer-content-item{
+        padding-top: 0px;
+        max-width: 720px;
+        min-width: 300px;
+        margin: 0 auto;
+        position: relative;
+        top: -140px;
+    }
+    .footer .footer-content-item .content-item-text{
+        display: none;
+    }
+    .footer .footer-content-item .m-footer{
+        display: block;
+        padding: 40px;
+        background: #F7F8FC;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal{
+        width: 100%!important;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-head{
+        text-align: center
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-head img{
+        width: 70px;
+    }
+    .footer .m-footer .m-footer-logo{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer .m-footer .m-footer-logo img{
+        width: 70px;
+    }
+    .footer .m-footer .m-footer-modal{
+        padding: 15px 0;
+    }
+    .footer .m-footer .m-footer-modal .m-footer-item-title{
+        margin: 0;
+        padding: 10px 0;
+        color: #333;
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer .m-footer .m-footer-modal .m-footer-item-text{
+        color: #999;
+        text-align: center;
+        font-size: 12px;
+    }
+    .footer .m-footer .m-footer-modal .m-footer-item-text img{
+        width: 20px;
+        margin-right: 5px;
+    }
+    .footer .m-footer .m-footer-modal .m-footer-code{
+        text-align: center;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .Copyright{
+        padding: 0px 40px;
+        font-size: 9px;
+        bottom: 30px;
+    }
+
+    .monitor-banner-bg {
+        height: 330px;
+        background: #F7F8FC url(/static/img/mobile/m_monitor-banner.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+    .oneoaas-monitor .product-banner-monitor {
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        padding-top: 30px;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text h2 {
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-img {
+        display: none;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text h2 img {
+        display: none;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text .monitor-text-info {
+        list-style: none;
+        color: #fff;
+        font-size: 12px;
+        margin: 10px 0 0 0;
+        padding: 10px;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text .monitor-text-info li{
+        padding: 2px 0;
+    }
+    .products-monitor-btn button{
+        outline: none;
+        background: #2DCC70;
+        border: 1px solid #2DCC70;
+        padding: 6px 35px;
+        font-size: 14px;
+        color: #fff;
+        border-radius: 2px;
+        -webkit-box-shadow:0 4px 10px rgba(53,128,255,1);
+        -moz-box-shadow:0 4px 10px rgba(53,128,255,1);
+        box-shadow:0 4px 10px rgba(53,128,255,1);
+    }
+
+    .product-announce {
+        width: 100%;
+        display: inline-block;
+    }
+    .oneoaas-body .oneoaas-body-item{
+        position: relative;
+        padding: 0 0 60px 0;
+    }
+    .oneoaas-body .appboard-content,.oneoaas-body .dataview-modal,.oneoaas-body .envision-bg,.oneoaas-body .performance-modal{
+        padding:0 40px;
+    }
+    .oneoaas-body .appboard-modal,.oneoaas-body .dataview-img{
+        background:#F7F8FC;
+    }
+    .oneoaas-body-item .product-info-title{
+        text-align: center;
+        font-size: 15px;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .oneoaas-body-item .product-info-title img.info-title-img{
+        width: 16px;
+    }
+    .oneoaas-body-item .product-info-title .info-title-text{
+        position: relative;
+        top:2px;
+        left:5px;
+    }
+    .oneoaas-body-item .products-info-img{
+        margin-top: 30px;
+    }
+    .oneoaas-body-item .product-info-text .info-text{
+        font-size: 11px;
+        color: #999;
+        text-indent: 1.5rem;
+        line-height: 1.5rem;
+        padding-top: 15px;
+    }
+    .oneoaas-body-item .products-info-img img.box-show{
+        width: 100%;
+        -webkit-box-shadow: 0 0 10px rgba(102,102,102,.4);
+        -moz-box-shadow: 0 0 10px rgba(102,102,102,.4);
+        box-shadow: 0 0 10px rgba(102,102,102,.4);
+    }
+    .monitor_envision .envision-bg {
+        margin: 0;
+        width: 100%;
+        height: 220px;
+        background:url(/static/img/mobile/m_monitor-product.png)no-repeat;
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+    .monitor_envision .envision-bg .envision-title{
+        text-align: center;
+        margin-top: 26px;
+    }
+    .monitor_envision .envision-bg .envision-title img{
+        display: inline-block;
+        width: 100px;
+    }
+    .monitor_envision .envision-bg h3{
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    .monitor_envision .envision-bg .envision-content{
+        color: #fff;
+        text-align: center;
+        font-size: 11px;
+        line-height: 1.5rem;
+    }
+    .performance-btn{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .oneoaas-community-banner-bg{
+        width: 100%;
+        height: 265px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .oneoaas-community-banner-bg::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 265px;
+        width: 100%;
+        background: url(/static/img/mobile/m_case-banner.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .about-banner-content{
+        display: none;
+    }
+
+    .about-content-item{
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    .about-content-item .about-content-modal{
+        padding: 25px;
+    }
+    .about-content-item .body-item-modal-title{
+        text-align: center;
+        display:none;
+        color: #333;
+        font-size: 16px;
+    }
+    .about-content-item .body-item-modal-subheading{
+        display: none;
+    }
+    .about-content-item .about-item-modal .user-info-case{
+        background: #F7F8FC;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-icon{
+        text-align: center;
+        width: 120px;
+        margin-top: 15px;
+        display: inline-block;
+        border: 1px solid #ddd;
+        background: #fff;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-icon img{
+        width: 110px;
+    }
+
+    .about-content-item .about-item-modal .user-info-case .case-text h6{
+        font-size: 15px;
+        color: #333;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-title{
+        color: #999;
+        font-size: 12px;
+        padding: 5px 15px;
+        text-align: left;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-info{
+        font-size: 12px;
+        color: #999;
+        text-align: left;
+        padding: 0 15px 15px 15px;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-detail{
+        display: none;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-info strong{
+        color: #3850ff;
+        font-weight: normal;
+        font-size: 12px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .oneoaas-about-banner-bg{
+        width: 100%;
+        height: 265px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .oneoaas-about-banner-bg::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 265px;
+        width: 100%;
+        background: url(/static/img/mobile/m_about.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .oneoaas-body-item .m-modal-title{
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        color: #333;
+        margin: 20px 0 0 0;
+        padding: 5px 0;
+    }
+    .oneoaas-body-item .m-modal-subheading{
+        display: block;
+        color: #999;
+        font-size: 13px;
+        margin: 0;
+        padding:0;
+        text-align: center;
+    }
+    .about-content-item .about-item-modal .about-user-info{
+        font-size: 12px;
+        line-height: 1.5rem;
+        overflow: hidden;
+        color: #999;
+        padding: 15px 15px 0 15px;
+        background: #F7F8FC;
+    }
+    .about-content-item  .about-item-me{
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+    .about-content-item .m-user-zabbix{
+        padding-bottom: 15px!important;
+    }
+    .about-content-item .about-item-modal .about-user-info .about-user-info-bold{
+        font-size: 12px;
+        color: #3580ff;
+        font-weight: bold;
+        padding: 0 5px 0 0;
+    }
+    .about-content-item .m-user-icon{
+        text-align: center;
+        display: block;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text h6{
+        color: #333;
+        font-size: 14px;
+        text-align: center;
+        margin:10px 0;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text p{
+        text-align: left;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text p strong{
+        font-weight: normal;
+        font-size: 12px;
+        color: #999;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+    .about-contact-modal .about-modal-map{
+        display: none;
+    }
+    .about-contact-modal .m-about-modal-map{
+        display: block;
+        padding: 20px 0;
+        margin: 15px 0 40px 0;
+    }
+    .about-contact-modal .m-about-modal-map img{
+        width: 100%;
+    }
+
+    .oneoaas-download-banner::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        height: 200px;
+        background: url(/static/img/mobile/m_download.png) no-repeat 0 0;
+        background-size: 100% 100%;
+    }
+    .oneoaas-download-banner .download-banner-wraper{
+        position: relative;
+        width: 100%;
+    }
+    .download-banner-content{
+        margin-top: 30px;
+    }
+    .download-banner-wraper .version-content{
+        padding: 40px;
+        overflow: hidden;
+        z-index: 999;
+    }
+    .download-banner-wraper .version-content .version-content-model{
+        list-style: none;
+        width: 100%;
+        margin: 0;
+        padding:0;
+        overflow: hidden;
+        border-radius: 3px;
+    }
+    .download-banner-wraper .version-content .version-content-model .version-content-item{
+        width: 50%;
+        float: left;
+        padding: 20px 15px;
+        background: #fff;
+        border: 1px solid #eee;
+    }
+    .download-banner-wraper .version-content-model .version-content-item-title{
+        text-align: center;
+        font-size: 14px;
+        color: #3580ff;
+        margin: 0;
+    }
+    .version-content .version-content-model .version-content-item-title-h4{
+        color: #3580ff;
+        font-size: 14px;
+        margin: 0;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text{
+        list-style: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 11px;
+    }
+    .version-content .version-content-model .version-content-item-dividing-line{
+        width: 60px;
+        display: inline-block;
+        color: #999;
+        height: 15px;
+        letter-spacing:2px;
+        text-align: center;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li{
+        width: 100%;
+        padding: 5px 0;
+        position: relative;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-true{
+        color: #333;
+        position: relative;
+        font-size: 11px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-false::after{
+        content: '';
+        position: absolute;
+        top: 7px;
+        right: 0;
+        background: url(/static/img/pc/pilot_false-check.png)no-repeat;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        width: 12px;
+        height: 12px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-false{
+        text-decoration: line-through;
+        color: #999;
+        font-size: 11px;
+        position: relative;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-true::after {
+        content: '';
+        position: absolute;
+        top: 7px;
+        right: 0;
+        background: url(/static/img/pc/pilot_true-check.png)no-repeat;
+        -webkit-background-size: 100% 100%;
+        background-size: 100% 100%;
+        width: 12px;
+        height: 12px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-get-fashion::after{
+        position: absolute;
+        top: 5px;
+        right: 0;
+        color: #3580ff;
+        content: '下载';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-accredit-fashion::after {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        color: #3580ff;
+        content: '永久免费';
+    }
+    .version-content .version-content-model li.version-content-item .version-content-item-download{
+        margin-top: 10px;
+    }
+
+    .btn-download{
+        width: 100%;
+        border-radius: 1px;
+        background: #3580ff;
+        color: #fff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        padding: 5px 16px;
+        font-size: 12px;
+    }
+    .download-btn-icon::after {
+        content: '';
+        position: relative;
+        width: 12px;
+        height: 12px;
+        background: url(/static/img/pc/pilot_downlo.png)no-repeat;
+        -webkit-background-size: 12px 12px;
+        background-size: 12px 12px;
+        display: inline-block;
+        margin-right: 10px;
+        top: 1px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-business::after {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        color: #3580ff;
+        content: '限量授权';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-accredit::after {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        color: #3580ff;
+        content: '授权';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-enterprise::after {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        color: #3580ff;
+        content: '联系商务';
+    }
+
+    .btn-probation {
+        width: 100%;
+        border-radius: 1px;
+        background: #fff;
+        border: 1px solid #3580ff;
+        color: #3580ff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        padding: 5px 24px;
+        font-size: 12px;
+    }
+    .download-body .download-approach-content{
+        width: 100%;
+        padding: 40px;
+        position: relative;
+        overflow: hidden;
+    }
+    .download-body .download-approach-content .approach-first{
+        font-size: 15px;
+        text-align: center;
+        color: #41D885;
+    }
+    .download-body .download-approach-content .approach-first-text{
+        font-size: 15px;
+        color: #333;
+        padding: 5px 0;
+        text-align: center;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item{
+        position: relative;
+        overflow: hidden;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal{
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal li {
+        width:100%;
+        overflow: hidden;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-no {
+        font-size: 35px;
+        color: #41D885;
+        display: inline-block;
+        vertical-align: top;
+        width: 50px;
+        font-weight: bold;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-info {
+        font-size: 16px;
+        width: 150px;
+        display: inline-block;
+        overflow: hidden;
+        text-align: left;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-info h2 {
+        font-size: 15px;
+        display: inline-block;
+        color: #333;
+        text-align: left;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-info p {
+        font-size: 12px;
+        display: inline-block;
+        color: #999;
+        text-align: left;
+        padding-top: 5px;
+    }
+    .approach-content-item .download-form-title{
+        padding: 5px 0;
+        font-size: 15px;
+        color: #333;
+        text-align: center;
+    }
+    .approach-content-item .download-form{
+        padding: 10px;
+        width: 100%;
+    }
+    .approach-content-item .download-form .download-form-ul{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .approach-content-item .download-form .download-form-ul li{
+        padding: 5px 0;
+        font-size: 12px;
+        color: #666;
+        overflow: hidden;
+        position: relative;
+    }
+    .approach-content-item .download-form .download-form-ul li label{
+        width: 20%;
+        text-align: right;
+        font-size: 12px;
+        padding-right: 5px;
+        vertical-align: top;
+        font-weight:normal;
+    }
+    .approach-content-item .download-form .download-form-ul li input{
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #e1e1e1;
+        background: none;
+        outline: none;
+        font-size: 12px;
+        -webkit-appearance:none;
+        border-radius: 0px;
+    }
+    .approach-content-item .download-form .download-form-ul li .download-form-group{
+        display: inline-block;
+        position: relative;
+        width: 70%;
+    }
+    .approach-content-item .download-form .download-form-group-phone {
+        position: absolute;
+        right: 3px;
+        top: 3px;
+    }
+    .approach-content-item .download-form .download-form-group-phone button {
+        width: 100%;
+        border-radius: 2px;
+        background: #3580ff;
+        border: 1px solid #3580ff;
+        color: #fff;
+        font-size: 10px;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        padding: 3px 8px;
+    }
+    .approach-content-item .download-form .error-show{
+        color: red;
+        display: none;
+        font-size: 10px;
+        right: 5px;
+        position: relative;
+        top: 36px;
+        z-index: 99;
+    }
+    .approach-content-item .download-form .download-form-ul li select{
+        width: 100%;
+        padding: 5px;
+        font-size: 12px;
+        border: 1px solid #e1e1e1;
+        border-radius: 0px;
+    }
+    .approach-content-item .download-form .download-form-ul li textarea{
+        width: 100%;
+        max-width: 100%;
+        height: 100px;
+        border-radius: 0px;
+        padding: 5px;
+        border: 1px solid #e1e1e1;
+        -webkit-appearance:none;
+        background: none;
+    }
+    .approach-content-item .download-form .download-form-ul li label span{
+        color: #ff0000;
+    }
+    .approach-content-item .download-form .download-form-tpis{
+        font-size: 10px;
+        padding-top: 10px;
+        color: #999;
+        margin-left: 23%;
+        width: 70%;
+    }
+    .approach-content-item .download-form .download-form-btn{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .approach-content-item .download-form .download-form-btn-submit{
+        width: 150px;
+        padding: 5px;
+        font-size: 13px;
+        background: #3580ff;
+        outline: none;
+        border: 1px solid #3580ff;
+        transition: .3s all ease;
+        border-radius: 1px;
+        color: #fff;
+    }
+    .download-content{
+        background: #fff;
+        padding: 0px;
+        width: 320px;
+        margin: 0 auto;
+        -webkit-box-shadow:0 0 8px #666;
+        -moz-box-shadow:0 0 8px #666;
+        box-shadow:0 0 8px #666;
+    }
+    .download-content .download-form-group .download-form-group-text{
+        padding: 8px 10px 8px 58px;
+        height: auto;
+        line-height: normal;
+        font-size: 14px;
+    }
+    .download-content .download-form-group .download-form-group-name {
+        font-size: 13px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #666;
+    }
+    .download-content .download-form{
+        padding: 20px 15px;
+    }
+    .download-content .download-form-group-phone {
+        position: absolute;
+        right: 10px;
+        top: 7px;
+    }
+    .download-content .btn-phone {
+        width: 100%;
+        border-radius: 2px;
+        font-size: 12px;
+        background: #3580ff;
+        border: 1px solid #3580ff;
+        color: #fff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        padding: 2px 6px;
+    }
+    .download-content .download-contact-information{
+        padding: 15px 0;
+    }
+    .download-success{
+        margin-top: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 12px;
+    }
+}
+
+/* 移动端 《380*/
+@media screen and (max-width: 380px) {
+    .download-banner-wraper .version-content{
+        padding: 50px 5px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-false{
+        font-size: 9px;
+    }
+    .version-content{
+        padding: 0;
+    }
+    .download-content{
+        width: 100%;
+    }
+    .download-content .download-form-group .download-form-group-name{
+        font-size: 10px;
+        top: 8px;
+    }
+    .download-content .download-form-group .download-form-group-text{
+        font-size: 11px;
+    }
+    .download-content .download-form-group-phone {
+        position: absolute;
+        right: 8px;
+        top: 5px;
+    }
+    .download-content .download-contact-information{
+        font-size: 10px;
+    }
+    input[placeholder], [placeholder], *[placeholder] {
+        font-size: 10px!important;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 10px!important;
+    }
+    :-moz-placeholder{
+        font-size: 10px!important;
+    }
+    .download-content .btn-phone{
+        font-size: 10px;
+    }
+    .download-success{
+        margin-top: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 10px;
+    }
+}
+
+/* macbook 1440*960*/
+@media screen and (min-width:768px) and (max-width:1440px){
+    /* 头部设置*/
+    .navbar{
+        height: 60px;
+    }
+    .navbar .topbar{
+        min-width:1000px;
+        max-width: 1000px;
+        height: 60px;
+    }
+    .navbar .topbar .navbar-header{
+        height: 60px;
+    }
+    .navbar .topbar .navbar-header .navbar-logo{
+        padding: 18px 20px;
+    }
+    .navbar .topbar .navbar-header .navbar-logo img{
+        width: 65%;
+    }
+    .navbar .common-topbar-nav .common-topbar-nav-list li{
+        height: 58px;
+        line-height: 58px;
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    .navbar .common-topbar-nav .common-topbar-nav-list a.nav-list-li-apply{
+        padding: 8px 22px;
+        text-decoration: none;
+    }
+
+    .oneoaas-index{
+        height: 780px;
+    }
+    .oneoaas-index .oneoaas-wraper{
+        top:100px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-title h1{
+        font-size: 45px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-title h2{
+        font-size: 28px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-map{
+        width: 740px;
+        height: 332px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-title{
+        height: 145px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-map .banner-monitor-line{
+        width: 880px;
+        position: absolute;
+        left: -85px;
+        top: -10px;
+        height: 220px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-btn{
+        bottom:64px;
+    }
+    .oneoaas-index .oneoaas-wraper .banner-monitor-btn button.banner-monitor-button{
+        padding:12px 50px
+    }
+        /*oneoaas介绍*/
+    .oneoaas-body{
+        background: #fff;
+        position: relative;
+    }
+    .oneoaas-body .oneoaas-body-item{
+        position: relative;
+    }
+    .oneoaas-body .surge-help{
+        height: 560px;
+        width: 100%;
+        background:#f6f8fc;
+        position: relative;
+        background: url("/static/img/pc/index_bg-01.png")no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .oneoaas-body .body-item-modal{
+        overflow: hidden;
+        position: relative;
+        max-width: 1000px;
+        min-width: 1000px;
+        margin: 0 auto;
+    }
+    .oneoaas-body .modal-surge-help{
+        top:-70px;
+        z-index: 99;
+    }
+    .oneoaas-body .body-item-modal .body-item-modal-title{
+        text-align: center;
+        color: #333;
+        font-size: 22px;
+    }
+    .oneoaas-body .body-item-modal .body-item-modal-subheading{
+        text-align: center;
+        color:#999;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content{
+        overflow: hidden;
+        padding-top: 90px;
+        margin: 0;
+        border: 0;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .modal-content-top{
+        width:33.33%;
+        padding: 0 20px;
+        margin: 0;
+        float: left;
+        border: 0;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module{
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 92px;
+        height: 100px;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-icon{
+        width: 80px;
+        height: 80px;
+        float: left;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-icon img{
+        width: 80px;
+        height: 80px;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-info{
+        width: 210px;
+        float: left;
+        padding-left: 15px;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-info h6{
+        font-size: 16px;
+        color: #333;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-info .module-info-text{
+        font-size: 12px;
+        color: #999;
+    }
+
+
+
+    /*oneoaas 我们的产品*/
+    .oneoaas-body .oneoaas-body-item .our-products{
+        margin-top: 120px;
+        z-index: 2;
+    }
+    .oneoaas-body .body-products{
+        padding-bottom: 150px;
+    }
+    .oneoaas-body .body-products::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+        height: 500px;
+        background: url("/static/img/pc/index_bg-02.png") no-repeat bottom;
+        background-size: 100% 100%;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products{
+        width:100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products h2{
+        color: #666;
+        font-size: 22px;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products .item-modal-products-btn{
+        margin-top: 40px;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products .item-modal-products-btn .modal-products-btn-apply{
+        padding: 12px 27px;
+        background: #2DCC70;
+        display: inline;
+        border: 1px #2DCC70;
+        outline:none;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 4px;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products .item-modal-products-btn .modal-products-btn-apply:hover{
+        background: rgba(0,255,0,.6);
+        transition: .3s all ease;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        -moz-transition: .3s all ease;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products .modal-content-img{
+        box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.3);
+        width: 90%;
+    }
+
+
+    /*oneoaas 合作伙伴*/
+    .oneoaas-body .body-businesses{
+        margin: 100px 0;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation{
+        padding-top: 110px;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon{
+        width: 100%;
+        overflow: hidden;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon img{
+        display: inline-block;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon .modal-icon-bank{
+        width: 330px;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon .modal-icon-quaijca{
+        width: 332px;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon .modal-icon-chatai{
+        width: 200px;
+        margin-right:34px;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon .modal-icon-lenovo{
+        width: 240px;
+        margin-right:20px;
+    }
+
+
+
+    /*monitor 页面*/
+
+    .oneoaas-monitor::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        background: url("/static/img/pc/Monitor_banner-bg.png") no-repeat bottom;
+        background-size: 100% 100%;
+    }
+    .monitor-banner-bg {
+        height: 590px;
+        background: #F7F8FC url(/static/img/pc/Monitor_banner-bg.png) no-repeat center;
+        background-size:100% 100%;
+        min-width: 1000px;
+    }
+    .oneoaas-monitor .product-banner-monitor{
+        max-width: 1000px;
+        min-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text{
+        width: 400px;
+        float: left;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text h2{
+        font-size: 22px;
+        color: #fff;
+        text-align: left;
+        padding:30px 0 0 70px;
+        margin: 0;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text h2 img{
+        width: 35px;
+        height: 32px;
+        position: absolute;
+        left: 20px;
+        top: 25px;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text h2 span{
+        font-size: 30px;
+        margin-left: 5px;
+        padding-right: 10px;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-img{
+        float: left;
+        position: relative;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-img img{
+        width: 720px;
+        position: absolute;
+        z-index: 999;
+        left:-10px;
+        top:-10px;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text .monitor-text-info{
+        list-style: none;
+        color: #fff;
+        font-size: 15px;
+        margin:30px 0 0 0;
+        padding:20px;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text .monitor-text-info li{
+        text-align: left;
+        padding: 5px 0;
+    }
+    .products-monitor-btn{
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+    }
+    .products-monitor-btn button{
+        outline: none;
+        background: #2DCC70;
+        border: 1px solid #2DCC70;
+        padding: 8px 22px;
+        font-size: 14px;
+        color: #fff;
+        border-radius: 4px;
+    }
+
+
+    /*monitor-body 业务看板*/
+    .product-announce{
+        width: 100%;
+        background: #F7F8FC;
+        display: inline-block;
+    }
+    .appboard-modal {
+        position: relative;
+        max-width: 1000px;
+        min-width: 1000px;
+        background: #F7F8FC;
+        margin: 0 auto;
+        display: block;
+        padding:0;
+    }
+    .oneoaas-body-item .product-info-title{
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+    }
+    .oneoaas-body-item .product-info-title img.info-title-img{
+        width: 35px;
+        height: 32px;
+    }
+    .oneoaas-body-item .product-info-title .info-title-text{
+        position: relative;
+        top:6px;
+        padding-left:15px;
+        font-size: 22px;
+    }
+    .oneoaas-body-item .product-info-text{
+        font-size: 13px;
+        color: #999;
+        margin-top: 40px;
+    }
+    .oneoaas-body-item .product-info-text .info-text{
+        text-indent: 1.5rem;
+        margin: 0 auto;
+        width: 70%;
+        text-align: left;
+        line-height: 2rem;
+    }
+    .oneoaas-body-item .products-info-img{
+        margin-top: 80px;
+    }
+    .oneoaas-body-item .products-info-img img.box-show{
+        display: block;
+        width: 100%;
+        -webkit-box-shadow:0 0 30px rgba(102,102,102,.8);
+        -moz-box-shadow:0 0 30px rgba(102,102,102,.8);
+        box-shadow:0 0 30px rgba(102,102,102,.8);
+    }
+
+
+    /*monitor-body 监控报表*/
+
+    .dataview-modal{
+        position: relative;
+        max-width: 1000px;
+        min-width: 1000px;
+        background: #F7F8FC;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        z-index: 2;
+    }
+    .dataview-img{
+        padding-top: 100px;
+    }
+    .dataview-img::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 11;
+        width: 100%;
+        /*    height: 417px;
+            background: url(/static/img/pc/Monitor_grey-up.png) no-repeat top;
+            background-size: 100% 100%;*/
+    }
+    .dataview-img .product-info-title{
+
+    }
+
+
+    /* ENVISION*/
+    .monitor_envision{
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background: #fff;
+    }
+    .monitor_envision .envision-bg{
+        width: 100%;
+        height: 400px;
+        background: url("/static/img/pc/Monitor_envision-bg.png")no-repeat;
+        -webkit-background-size:1920px 592px;
+        background-size:100% 100%;
+        overflow: hidden;
+    }
+    .monitor_envision .envision-bg .envision-title{
+        text-align: center;
+        margin:0 auto;
+        margin-top: 60px;
+        max-width: 1000px;
+        min-width: 1000px;
+    }
+    .monitor_envision .envision-bg .envision-title img{
+        width: 166px;
+        height: 48px;
+        display: inline-block;
+    }
+    .monitor_envision .envision-bg h3{
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        max-width: 1000px;
+        min-width: 1000px;
+        padding: 15px 0;
+    }
+    .monitor_envision .envision-bg .envision-content{
+        font-size: 15px;
+        color: #fff;
+        text-align: center;
+        max-width: 1000px;
+        min-width: 1000px;
+        margin: 0 auto;
+    }
+
+
+    /* 应用状态*/
+    .monitor_performance {
+        background: #fff;
+        padding-top: 100px;
+    }
+    .monitor_performance .performance-modal{
+        position: relative;
+        max-width: 1000px;
+        min-width: 1000px;
+        background: #fff;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        z-index: 2;
+    }
+
+    /* 监控图表*/
+    .performance-btn{
+        margin-top: 100px;
+        text-align: center;
+    }
+    /*.performance-btn button{
+        box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.5);
+        -webkit-box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.5);
+        -moz-box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.5);
+    }*/
+
+    /* Download页面*/
+    .oneoaas-download-banner{
+        position: relative;
+        background: #fff;
+    }
+    .oneoaas-download-banner::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        height: 520px;
+        background: url('/static/img/pc/pilot_banner-bg.png') no-repeat 0 0;
+        background-size: 100% 100%;
+    }
+    .oneoaas-download-banner .download-banner-content{
+        position: relative;
+        max-width: 1000px;
+        min-width: 1000px;
+        background: transparent;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 60px;
+        display: block;
+        z-index: 2;
+    }
+    .version-title{
+        font-size: 4rem;
+        color: #fff;
+        text-align: center;
+    }
+    .version-content{
+        width: 100%;
+        min-width: 1000px;
+        padding: 20px;
+        font-family: "Microsoft YaHei", sans-serif;
+    }
+    .version-content .version-content-model{
+        margin:0;
+        list-style: none;
+        width: 100%;
+        overflow: hidden;
+        background: #fff;
+        padding:0;
+        border-radius:4px;
+        -webkit-box-shadow: 0 0 10px #333;
+        -moz-box-shadow: 0 0 10px #333;
+        box-shadow: 0 0 10px #333;
+    }
+    .version-content .version-content-model .version-content-item-title{
+        text-align: center;
+    }
+    .version-content .version-content-model .version-content-item-title-h4{
+        color: #3580ff;
+        font-size: 16px;
+        margin-bottom:20px;
+    }
+    .version-content .version-content-model .version-content-item-dividing-line{
+        display: inline-block;
+        color: #999;
+        font-size: 20px;
+        letter-spacing:2px;
+        margin: 0;
+        text-align: center;
+    }
+    .version-content .version-content-model li.version-content-item{
+        float: left;
+        width: 25%;
+        min-width: 240px;
+        padding: 30px 20px;
+        border-right:1px solid #ddd;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text{
+        list-style:none;
+        width: 100%;
+        margin: 0;
+        padding:20px 10px;
+        text-align: left;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li{
+        position: relative;
+        padding: 6px 0;
+        font-size: 14px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-true{
+        color: #333;
+        position: relative;
+        font-size: 14px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-false{
+        text-decoration: line-through;
+        color: #999;
+        font-size: 14px;
+        position: relative;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-true::after{
+        content: '';
+        position: absolute;
+        top:9px;
+        right: 0;
+        background: url("/static/img/pc/pilot_true-check.png")no-repeat;
+        -webkit-background-size:100% 100%;
+        background-size:100% 100%;
+        width: 15px;
+        height: 15px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-false::after{
+        content: '';
+        position: absolute;
+        top:9px;
+        right: 0;
+        background: url("/static/img/pc/pilot_false-check.png")no-repeat;
+        -webkit-background-size:100% 100%;
+        background-size:100% 100%;
+        width: 15px;
+        height: 15px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-get-fashion::after{
+        position: absolute;
+        top:10px;
+        right: 0;
+        color: #3580ff;
+        content: '下载';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-accredit-fashion::after{
+        position: absolute;
+        top:10px;
+        right: 0;
+        color: #3580ff;
+        content: '永久免费';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-business::after{
+        position: absolute;
+        top:10px;
+        right: 0;
+        color: #3580ff;
+        content: '限量授权';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-accredit::after{
+        position: absolute;
+        top:10px;
+        right: 0;
+        color: #3580ff;
+        content: '授权';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-enterprise::after{
+        position: absolute;
+        top:10px;
+        right: 0;
+        color: #3580ff;
+        content: '联系商务';
+    }
+    .download-banner-wraper{
+        width: 100%;
+        position: relative;
+        left: 0;
+        z-index: 20;
+        top: 100px;
+        margin-bottom: 10px;
+    }
+    .download-body{
+        top:100px;
+        position: relative;
+        max-width: 1000px;
+        min-width: 1000px;
+        background: transparent;
+        margin: 0 auto;
+        padding: 0;
+        z-index: 2;
+        margin-bottom: 250px;
+    }
+    .oneoaas-download-banner .download-approach-content{
+        position: relative;
+        overflow: hidden;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-title{
+        margin: 100px 0;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-title .approach-first{
+        font-size: 22px;
+        color: #41D885;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-title .approach-first-text{
+        font-size: 22px;
+        color: #333;
+        padding: 5px 0;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item{
+        position: relative;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal{
+        list-style:none;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding:0;
+        border: 0;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal li{
+        width: 33.33%;
+        float: left;
+        overflow: hidden;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-no{
+        font-size: 60px;
+        color:#41D885;
+        float: left;
+        font-weight: bold;
+        width: 20%;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-info{
+        float: left;
+        width: 80%;
+        font-size: 20px;
+        overflow: hidden;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-info h2{
+        font-size: 22px;
+        color:#333;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-info p{
+        font-size:18px;
+        color:#999;
+        padding-top: 25px;
+    }
+
+    .download-btn-icon::after{
+        content: '';
+        position: relative;
+        width: 18px;
+        height: 18px;
+        background: url("/static/img/pc/pilot_downlo.png")no-repeat;
+        -webkit-background-size:18px 18px;
+        background-size:18px 18px;
+        display: inline-block;
+        margin-right: 10px;
+        top:3px;
+    }
+    .btn-download{
+        width: 100%;
+        border-radius: 4px;
+        background: #3580ff;
+        color: #fff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        padding: 10px 24px;
+        font-size: 16px;
+    }
+    .btn-probation{
+        width: 100%;
+        border-radius: 4px;
+        background: #fff;
+        border:1px solid #3580ff ;
+        color: #3580ff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        padding: 10px 24px;
+        font-size: 16px;
+    }
+    .btn-probation:hover{
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        -webkit-box-shadow:0 0 10px #3580ff;
+        -moz-box-shadow:0 0 10px #3580ff;
+        box-shadow:0 0 10px #3580ff;
+        color: #3580ff;
+    }
+    .btn-download:hover{
+        -webkit-box-shadow:0 0 10px #3580ff;
+        -moz-box-shadow:0 0 10px #3580ff;
+        box-shadow:0 0 10px #3580ff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        color: #fff;
+    }
+    .download-body .download-form-item{
+        margin-top: 100px;
+    }
+    .btn-download .glyphicon-download-alt{
+        padding-right: 20px;
+    }
+
+    .approach-content-item .download-form-title{
+        padding: 15px 0;
+        font-size: 26px;
+        color: #333;
+        text-align: center;
+    }
+    .approach-content-item .download-form{
+        width: 60%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .approach-content-item .download-form .download-form-ul{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .approach-content-item .download-form .download-form-ul li{
+        width: 100%;
+        margin: 20px 0;
+        font-size:16px;
+        position: relative;
+    }
+    .approach-content-item .download-form .download-form-ul li label{
+        font-weight: normal;
+        width: 140px;
+        text-align: right;
+        padding-right: 20px;
+    }
+    .approach-content-item .download-form .download-form-ul li .download-form-group{
+        display: inline-block;
+        position: relative;
+    }
+    .approach-content-item .download-form .error-show{
+        color: red;
+        display: none;
+        font-size: 14px;
+        right: 5px;
+        position: absolute;
+        top:45px;
+    }
+    .approach-content-item .download-form .download-form-ul li label span{
+        color:red ;
+    }
+    .approach-content-item .download-form .download-form-ul li input {
+        width: 450px;
+        border: 1px solid #ebebeb;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .approach-content-item .download-form .download-form-group-phone {
+        position: absolute;
+        right: 15px;
+        top:7px;
+    }
+    .approach-content-item .download-form .download-form-group-phone button{
+        width: 100%;
+        border-radius: 2px;
+        background: #3580ff;
+        border: 1px solid #3580ff;
+        color: #fff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+    .approach-content-item .download-form .download-form-ul li input:focus{
+        box-shadow: 0px 0px 10px rgba(53,128,255,0.5);
+        -webkit-box-shadow: 0px 0px 10px rgba(53,128,255,0.5);
+        -moz-box-shadow: 0px 0px 10px rgba(53,128,255,0.5);
+    }
+    .approach-content-item .download-form .download-form-ul li input:hover{
+        transition: .3s all ease;
+        -webkit-transition: .3s all ease;
+        -moz-transition: .3s all ease;
+        border: 1px solid #3580ff;
+    }
+    .approach-content-item .download-form .download-form-ul li select {
+        width: 450px;
+        border: 1px solid #ebebeb;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .approach-content-item .download-form .download-form-ul li textarea{
+        width: 450px;
+        border: 1px solid #ebebeb;
+        font-size: 20px;
+        max-width: 450px;
+        min-width: 450px;
+        padding: 10px;
+        height: 150px;
+        vertical-align: top;
+    }
+    .approach-content-item .download-form .download-form-tpis{
+        font-size: 13px;
+        padding-top: 15px;
+        color: #999;
+        margin-left: 150px;
+        width: 450px;
+    }
+    .approach-content-item .download-form .download-form-btn{
+        width: 450px;
+        margin-left: 150px;
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+        position: relative;
+    }
+    .approach-content-item .download-form .download-form-btn-submit{
+        width: 200px;
+        padding: 10px;
+        font-size: 15px;
+        background: #3580ff;
+        outline: none;
+        border: 1px solid #3580ff;
+        transition: .3s all ease;
+        border-radius: 4px;
+        color: #fff;
+    }
+
+    /* 关于我们*/
+    .oneoaas-item {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 97px;
+        z-index: 10;
+    }
+    .anchorBL {
+        display: none;
+    }
+    .about-us,
+    .partner{
+        background: #F7F8FD;
+        padding: 20px;
+        margin: 0;
+    }
+    .about-us, .partner{
+        padding: 15px 30px;
+    }
+    .our-partner .our-partner-img{
+        background: #fff;
+        line-height: 150px;
+    }
+    .our-partner .our-partner-img img{
+        width: 120%;
+        margin-top: -18%;
+        margin-left: -10%;
+    }
+    .text-centerbg{
+        border-bottom: none;
+        font-weight: bold;
+    }
+    h3.text-center {
+        font-size: 2rem;
+        color:#B9B9B9;
+    }
+    .our-partner .our-partner-text h6{
+        color: #000;
+    }
+    .oneoaas-about-banner-bg::after,.oneoaas-community-banner-bg::after{
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        height:345px;
+        width: 100%;
+        background: url("/static/img/pc/about_banner-bg.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    .oneoaas-about-banner{
+        width: 100%;
+        height: 345px;
+        margin:0 auto;
+        position: relative;
+        transition: 2s all ease;
+        -webkit-transition: 2s all ease;
+        -moz-transition: 2s all ease;
+        -o-transition: 2s all ease;
+    }
+    .oneoaas-about-banner .oneoaas-about-banner-canvas{
+        position: absolute;
+        opacity: .3;
+        z-index: 10;
+    }
+    .about-banner-content{
+        max-width: 700px;
+        min-width: 700px;
+        width: 700px;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+        height: 275px;
+        top:70px;
+        z-index: 99;
+        color: #fff;
+        transition: 1s all ease;
+        -webkit-transition: 1s all ease;
+        -moz-transition: 1s all ease;
+        -o-transition: 1s all ease;
+    }
+    .about-banner-content:hover{
+      transform: rotate3d(1,0,0,30deg);
+      -webkit-transform: rotate3d(1,0,0,30deg);
+    }
+    .about-banner-content h3 {
+        font-size: 26px;
+        color: #fff;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .about-banner-content h2 {
+        padding-top: 25px;
+        font-size: 35px;
+        color: #fff;
+        text-align: center;
+    }
+    .about-banner-content label{
+        position: absolute;
+        padding: 6px 32px;
+        background: rgba(200, 200, 200, .1);
+        border-radius: 18px;
+        color: #fff;
+        font-size:13px;
+        font-weight: normal;
+    }
+    .about-banner-content .about-center-modal-public{
+        top:0px;
+        left: 320px;
+    }
+    .about-banner-content .about-center-modal-preivce{
+        top:60px;
+        left: 120px;
+    }
+    .about-banner-content .about-center-modal-yunserver{
+        top:60px;
+        left: 480px;
+    }
+    .about-banner-content .about-center-modal-auto{
+        top: 165px;
+        left: 100px;
+    }
+    .about-banner-content .about-center-modal-room{
+        top: 165px;
+        left: 480px;
+    }
+    .about-banner-content .about-center-modal-flow{
+        top: 210px;
+        left:300px;
+
+    }
+    .about-banner-content .about-center-modal-text{
+        position: absolute;
+        top: 100px;
+        left: 280px;
+        font-size: 35px;
+        font-family: "Microsoft JhengHei Light";
+        font-weight: bold;
+    }
+    .about-content-item {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-content-item .about-content-modal{
+        max-width: 1000px;
+        min-width: 1000px;
+        margin: 100px auto;
+    }
+    .about-content-item .body-item-modal-title{
+        text-align: center;
+        color: #333;
+        font-size: 20px;
+    }
+    .about-content-item .body-item-modal-subheading{
+        text-align: center;
+        color: #999;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .about-content-item .about-item-modal{
+        color: #999;
+        max-width: 1000px;
+        min-width: 1000px;
+        margin: 50px auto;
+    }
+    .about-content-item .about-item-modal .about-user-info{
+        font-size: 13px;
+        line-height: 2rem;
+        overflow: hidden;
+    }
+    .about-content-item .about-item-modal .about-user-info .about-user-info-bold{
+        font-size:15px;
+        color: #3580ff;
+        font-weight: bold;
+        padding: 0 5px;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-icon{
+        float: left;
+        width: 200px;
+        border: 1px solid #ddd;
+        background: #fff;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-icon img{
+        width: 100%;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text{
+        float: left;
+        width: 730px;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text h6{
+        font-size: 20px;
+        color: #666;
+        padding: 0 30px;
+        margin:0 0 20px 0;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text p{
+        font-size: 13px;
+        color: #999;
+        padding:15px 30px;
+        font-weight: normal;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text p strong{
+        font-weight: normal;
+    }
+    .about-content-item .about-item-modal .user-info-case{
+        background: #F7F8FC;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-text{
+        width: 740px;
+        float: left;
+        height: 134px;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-text h6{
+        font-size: 16px;
+        color: #666;
+        padding: 0 30px;
+        margin: 0 0 8px 0;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-title{
+        padding: 0px 30px;
+        font-size: 12px;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-info{
+        padding: 5px 5px 5px 30px;
+        height:65px;
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-info strong{
+        color: #3850ff;
+        font-weight: normal;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-detail{
+        height: 30px;
+        padding: 0px 30px;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-detail a{
+        color: #3580ff;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .about-content-item  .about-item-me{
+        background: #F7F8FC;
+        padding: 30px;
+    }
+    .about-contact-modal{
+        margin: 80px 0;
+    }
+    .about-contact-modal .about-modal-map{
+        max-width: 1000px;
+        min-width: 1000px;
+        margin: 50px auto;
+    }
+    .about-modal-map img.about-map{
+        width: 1000px;
+    }
+
+    .footer{
+        height: 666px;
+    }
+    .footer .footer-content-item{
+        padding-top: 200px;
+        max-width: 1000px;
+        min-width: 1000px;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-head{
+        font-size: 15px;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-head img{
+        width: 50%;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-code{
+        font-size: 13px;
+        padding: 6px 0;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-code a{
+        font-size: 13px;
+    }
+    .Copyright{
+        bottom: 120px;
+    }
+    .wechat-img{
+        width: 25px;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-qrcode img{
+        width: 50%;
+    }
+}
+
+/* 1920*1080*/
+@media screen and (min-width:1441px) and (max-width:1921px){
+    /*oneoaas介绍*/
+    .oneoaas-body{
+        background: #fff;
+        position: relative;
+    }
+    .oneoaas-body .oneoaas-body-item{
+        position: relative;
+    }
+    .oneoaas-body .surge-help{
+        height: 765px;
+        width: 100%;
+        background:#f6f8fc;
+        position: relative;
+        background: url("/static/img/pc/index_bg-01.png")no-repeat;
+        background-size:100% 100%;
+    }
+    .oneoaas-body .body-item-modal{
+        overflow: hidden;
+        position: relative;
+        max-width: 1440px;
+        min-width: 1440px;
+        margin: 0 auto;
+    }
+    .oneoaas-body .modal-surge-help{
+        top:-70px;
+        z-index: 99;
+    }
+    .oneoaas-body .body-item-modal .body-item-modal-title{
+        text-align: center;
+        color: #333;
+    }
+    .oneoaas-body .body-item-modal .body-item-modal-subheading{
+        text-align: center;
+        color:#999;
+        margin-top: 10px;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content{
+        overflow: hidden;
+        padding-top: 110px;
+        margin: 0;
+        border: 0;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .modal-content-top{
+        width:480px;
+        padding: 0 30px;
+        margin: 0;
+        float: left;
+        border: 0;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module{
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 92px;
+        height: 120px;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-icon{
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-icon img{
+        width: 100px;
+        height: 100px;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-icon img:hover{
+        transform: scale3d(1.1,1.1,5);
+        -webkit-transform: scale3d(1.1,1.1,5);
+        -o-transform: scale3d(1.1,1.1,5);
+        -moz-transform: scale3d(1.1,1.1,5);
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-info{
+        width: 320px;
+        float: left;
+        padding-left: 15px;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-info h6{
+        font-size: 20px;
+        color: #333;
+    }
+    .oneoaas-body .body-item-modal .item-modal-content .content-module .content-module-info .module-info-text{
+        font-size: 16px;
+        color: #999;
+    }
+
+
+    /*oneoaas 我们的产品*/
+    .oneoaas-body .oneoaas-body-item .our-products{
+        margin-top: 160px;
+        z-index: 2;
+    }
+    .oneoaas-body .body-products{
+        padding-bottom: 220px;
+    }
+    .oneoaas-body .body-products::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+        height: 600px;
+        background: url("/static/img/pc/index_bg-02.png") no-repeat bottom;
+        background-size: 100% 100%;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products{
+        width:100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products h2{
+        color: #666;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products .item-modal-products-btn{
+        margin-top: 40px;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products .item-modal-products-btn .modal-products-btn-apply{
+        padding: 12px 27px;
+        background: #2DCC70;
+        display: inline;
+        box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.3);
+        -webkit-box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.3);
+        -moz-box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.3);
+        border: 1px #2DCC70;
+        outline:none;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 4px;
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products .item-modal-products-btn .modal-products-btn-apply:hover{
+        background: rgba(0,255,0,.6);
+        transition: .3s all ease;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        -moz-transition: .3s all ease;
+    }
+
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products .modal-content-img{
+        box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.3);
+    }
+    .oneoaas-body .oneoaas-body-item .body-item-modal-products .modal-content-img:hover{
+        transform: scale3d(1.1,1.1,5);
+        -webkit-transform: scale3d(1.1,1.1,5);
+        -moz-transform: scale3d(1.1,1.1,5);
+        -o-transform: scale3d(1.1,1.1,5);
+        cursor: pointer;
+    }
+
+
+    /*oneoaas 合作伙伴*/
+    .oneoaas-body .body-businesses{
+        margin: 160px 0;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation{
+        padding-top: 110px;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon{
+        width: 100%;
+        overflow: hidden;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon img{
+        display: inline-block;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon .modal-icon-bank{
+        width: 452px;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon .modal-icon-quaijca{
+        width: 524px;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon .modal-icon-chatai{
+        width: 301px;
+        margin-right:30px;
+    }
+    .oneoaas-body .body-businesses .body-item-modal-corporation .item-modal-icon .modal-icon-lenovo{
+        width: 362px;
+    }
+
+    /*oneoaas footer*/
+    .footer{
+        background: url("/static/img/pc/footer-bg.png")no-repeat;
+        background-size: 100% 100%;
+        height: 986px;
+        position: relative;
+    }
+    .footer .footer-content-item{
+        padding-top: 350px;
+        max-width: 1440px;
+        min-width: 1440px;
+        margin: 0 auto;
+    }
+    .footer .footer-content-item .content-item-text{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal{
+        width: 25%;
+        float: left;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-head{
+        font-size: 20px;
+        color: #333;
+        padding: 15px 0;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-code{
+        padding: 10px 0;
+        font-size: 18px;
+        color: #999;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-code a{
+        font-size: 18px;
+        color: #999;
+        cursor: pointer;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-code img{
+        cursor: pointer;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-qrcode{
+        display: none;
+        transition:0.3s all ease;
+        -webkit-transition:0.3s all ease;
+        -moz-transition:0.3s all ease;
+    }
+    .footer .footer-content-item .content-item-text .item-text-modal .text-modal-qrcode img{
+        transition:0.3s all ease;
+        -webkit-transition:0.3s all ease;
+        -moz-transition:0.3s all ease;
+    }
+    .footer .back-top{
+        position: fixed;
+        right: 5%;
+        bottom: 8%;
+        width: 50px;
+        height: 50px;
+        background: url('/static/img/pc/index_top.png')no-repeat;
+        background-size: 100% 100%;
+        z-index: 9999;
+    }
+
+
+    /*monitor 页面*/
+    .monitor-banner-bg{
+        height: 927px;
+        background:#F7F8FC url("/static/img/pc/Monitor_banner-bg.png") no-repeat center;
+    }
+/*    .oneoaas-monitor::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        background: url("/static/img/pc/Monitor_banner-bg.png") no-repeat bottom;
+        background-size: 100% 100%;
+    }*/
+    .oneoaas-monitor .product-banner-monitor{
+        max-width: 1440px;
+        min-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text{
+        width: 615px;
+        float: left;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text h2{
+        font-size: 35px;
+        color: #fff;
+        text-align: left;
+        padding:20px 0 0 70px;
+        margin: 0;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text h2 img{
+        width: 45px;
+        height: 42px;
+        position: absolute;
+        left: 20px;
+        top: 25px;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text h2 span{
+        font-size: 50px;
+        margin-left: 30px;
+        padding-right: 10px;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-img{
+        float: left;
+        position: relative;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-img img{
+        width: 900px;
+        position: absolute;
+        z-index: 999;
+        left:-10px;
+        top:0;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text .monitor-text-info{
+        list-style: none;
+        color: #fff;
+        font-size: 25px;
+        margin:30px 0 0 0;
+        padding:20px;
+    }
+    .oneoaas-monitor .product-banner-monitor .banner-monitor-text .monitor-text-info li{
+        text-align: left;
+        padding: 5px 0;
+    }
+    .products-monitor-btn{
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+    }
+    .products-monitor-btn button{
+        outline: none;
+        background: #2DCC70;
+        border: 0;
+        padding: 12px 27px;
+        font-size: 16px;
+        border-radius: 2px;
+        color: #fff;
+        box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.3);
+        -webkit-box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.3);
+        -moz-box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.3);
+    }
+    .products-monitor-btn button:hover{
+        background: rgba(0,255,0,.8);
+        transition:.3s all ease;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        -moz-transition: .3s all ease;
+    }
+
+
+    /*monitor-body 业务看板*/
+    .product-announce{
+        width: 100%;
+        background: #F7F8FC;
+        display: inline-block;
+    }
+    .appboard-modal {
+        position: relative;
+        max-width: 1440px;
+        min-width: 1440px;
+        background: #F7F8FC;
+        margin: 0 auto;
+        display: block;
+        padding:0;
+    }
+    .oneoaas-body-item .product-info-title{
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        margin: 0;
+    }
+    .oneoaas-body-item .product-info-title img.info-title-img{
+        width: 45px;
+        height: 42px;
+    }
+    .oneoaas-body-item .product-info-title .info-title-text{
+        position: relative;
+        top:10px;
+        padding-left:20px;
+    }
+    .oneoaas-body-item .product-info-text{
+        font-size: 18px;
+        color: #999;
+        margin-top: 40px;
+    }
+    .oneoaas-body-item .product-info-text .info-text{
+        text-indent: 2.5rem;
+        margin: 0 auto;
+        width: 70%;
+        text-align: left;
+        line-height: 3rem;
+    }
+    .oneoaas-body-item .products-info-img{
+        margin-top: 100px;
+    }
+    .oneoaas-body-item .products-info-img img.box-show{
+        display: block;
+        -webkit-box-shadow:0 0 30px rgba(102,102,102,.8);
+        -moz-box-shadow:0 0 30px rgba(102,102,102,.8);
+        box-shadow:0 0 30px rgba(102,102,102,.8);
+    }
+    .oneoaas-body-item .products-info-img img.box-show:hover{
+        transform: scale3d(1.01,1.01,5);
+    }
+
+
+    /*monitor-body 监控报表*/
+
+    .dataview-modal{
+        position: relative;
+        max-width: 1440px;
+        min-width: 1440px;
+        background: #F7F8FC;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        z-index: 2;
+    }
+    .dataview-img{
+        padding-top: 180px;
+        background:url("/static/img/pc/Monitor_grey-up.png")no-repeat bottom;
+    }
+    .dataview-img::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 11;
+        width: 100%;
+    /*    height: 417px;
+        background: url(/static/img/pc/Monitor_grey-up.png) no-repeat top;
+        background-size: 100% 100%;*/
+    }
+    .dataview-img .product-info-title{
+
+    }
+
+
+   /* ENVISION*/
+    .monitor_envision{
+        position: relative;
+        width: 100%;
+        height: 700px;
+        background: #fff;
+    }
+    .monitor_envision .envision-bg{
+        width: 100%;
+        height: 700px;
+        background: url("/static/img/pc/Monitor_envision-bg.png")no-repeat;
+        -webkit-background-size:1920px 592px;
+        background-size:1920px 592px;
+        overflow: hidden;
+        margin-top: 180px;
+    }
+    .monitor_envision .envision-bg .envision-title{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .monitor_envision .envision-bg .envision-title img{
+        width: 248px;
+        height: 68px;
+        display: inline-block;
+    }
+    .monitor_envision .envision-bg h3{
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .monitor_envision .envision-bg .envision-content{
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
+
+   /* 应用状态*/
+    .monitor_performance {
+        background: #fff;
+        padding-top: 180px;
+    }
+    .monitor_performance .performance-modal{
+        position: relative;
+        max-width: 1440px;
+        min-width: 1440px;
+        background: #fff;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        z-index: 2;
+    }
+
+    /* 监控图表*/
+    .performance-btn{
+        margin-top: 100px;
+        text-align: center;
+    }
+   /* .performance-btn button{
+        box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.5);
+        -webkit-box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.5);
+        -moz-box-shadow: 0px 10px 15px 0px rgba(53,128,255,0.5);
+    }*/
+
+    /* Download页面*/
+    .oneoaas-download-banner{
+        position: relative;
+        background: #fff;
+    }
+    .oneoaas-download-banner::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        height: 520px;
+        background: url('/static/img/pc/pilot_banner-bg.png') no-repeat 0 0;
+        background-size: 100% 100%;
+    }
+    .oneoaas-download-banner .download-banner-content{
+        position: relative;
+        max-width: 1440px;
+        min-width: 1440px;
+        background: transparent;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 100px;
+        display: block;
+        z-index: 2;
+    }
+    .version-title{
+        font-size: 4rem;
+        color: #fff;
+        text-align: center;
+    }
+    .version-content{
+        width: 100%;
+        padding: 20px;
+        font-family: "Microsoft YaHei", sans-serif;
+    }
+    .version-content .version-content-model{
+        margin:0;
+        list-style: none;
+        width: 100%;
+        overflow: hidden;
+        background: #fff;
+        padding:0;
+        border-radius:4px;
+        -webkit-box-shadow:0 0 10px #333;
+        -moz-box-shadow:0 0 10px #333;
+        box-shadow:0 0 10px #333;
+    }
+    .version-content .version-content-model .version-content-item-title{
+        text-align: center;
+    }
+    .version-content .version-content-model .version-content-item-title-h4{
+        color: #3580ff;
+        font-size: 20px;
+        margin-bottom:20px;
+    }
+    .version-content .version-content-model .version-content-item-dividing-line{
+        display: inline-block;
+        color: #999;
+        font-size: 35px;
+        letter-spacing:2px;
+        margin: 0;
+        text-align: center;
+    }
+    .version-content .version-content-model li.version-content-item{
+        float: left;
+        width: 25%;
+        padding: 30px 20px;
+        border-right:1px solid #ddd;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text{
+        list-style:none;
+        width: 100%;
+        margin: 0;
+        padding:20px 10px;
+        text-align: left;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li{
+        position: relative;
+        padding: 10px 0;
+        font-size: 17px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-true{
+        color: #333;
+        position: relative;
+        font-size: 17px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-false{
+        text-decoration: line-through;
+        color: #999;
+        font-size: 17px;
+        position: relative;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-true::after{
+        content: '';
+        position: absolute;
+        top:15px;
+        right: 0;
+        background: url("/static/img/pc/pilot_true-check.png")no-repeat;
+        -webkit-background-size:100% 100%;
+        background-size:100% 100%;
+        width: 18px;
+        height: 18px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-false::after{
+        content: '';
+        position: absolute;
+        top:15px;
+        right: 0;
+        background: url("/static/img/pc/pilot_false-check.png")no-repeat;
+        -webkit-background-size:100% 100%;
+        background-size:100% 100%;
+        width: 18px;
+        height: 18px;
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-get-fashion::after{
+        position: absolute;
+        top:10px;
+        right: 0;
+        color: #3580ff;
+        content: '下载';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-accredit-fashion::after{
+        position: absolute;
+        top:10px;
+        right: 0;
+        color: #3580ff;
+        content: '永久免费';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-business::after{
+        position: absolute;
+        top:10px;
+        right: 0;
+        color: #3580ff;
+        content: '限量授权';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-accredit::after{
+        position: absolute;
+        top:10px;
+        right: 0;
+        color: #3580ff;
+        content: '授权';
+    }
+    .version-content .version-content-model li.version-content-item ul.version-content-item-text li.item-enterprise::after{
+        position: absolute;
+        top:10px;
+        right: 0;
+        color: #3580ff;
+        content: '联系商务';
+    }
+    .download-banner-wraper{
+        width: 100%;
+        position: relative;
+        left: 0;
+        z-index: 20;
+        top: 100px;
+        margin-bottom: 200px;
+    }
+    .download-body{
+        top:100px;
+        position: relative;
+        max-width: 1440px;
+        min-width: 1440px;
+        background: transparent;
+        margin: 0 auto;
+        padding: 0;
+        z-index: 2;
+        margin-bottom: 150px;
+    }
+    .oneoaas-download-banner .download-approach-content{
+        position: relative;
+        overflow: hidden;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-title{
+        margin: 100px 0;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-title .approach-first{
+        font-size: 35px;
+        color: #41D885;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-title .approach-first-text{
+        font-size: 35px;
+        color: #333;
+        padding: 5px 0;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item{
+        position: relative;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal{
+        list-style:none;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding:0;
+        border: 0;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal li{
+        width: 33.33%;
+        float: left;
+        overflow: hidden;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-no{
+        font-size: 80px;
+        color:#41D885;
+        float: left;
+        font-weight: bold;
+        width: 20%;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-info{
+        float: left;
+        width: 80%;
+        font-size: 20px;
+        overflow: hidden;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-info h2{
+        font-size: 30px;
+        color:#333;
+    }
+    .oneoaas-download-banner .download-approach-content .approach-content-item .approach-item-modal .item-approach-info p{
+        font-size: 22px;
+        color:#999;
+        padding-top: 25px;
+    }
+
+    .download-btn-icon::after{
+        content: '';
+        position: relative;
+        width: 22px;
+        height: 22px;
+        background: url("/static/img/pc/pilot_downlo.png")no-repeat;
+        -webkit-background-size:22px 22px;
+        background-size:22px 22px;
+        display: inline-block;
+        margin-right: 10px;
+        top:3px;
+    }
+    .btn-download{
+        width: 100%;
+        border-radius: 4px;
+        background: #3580ff;
+        color: #fff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        padding: 15px 24px;
+        font-size: 20px;
+    }
+    .btn-probation{
+        width: 100%;
+        border-radius: 4px;
+        background: #fff;
+        border:1px solid #3580ff ;
+        color: #3580ff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        padding: 15px 24px;
+        font-size: 20px;
+    }
+    .btn-probation:hover{
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        -webkit-box-shadow:0 0 10px #3580ff;
+        -moz-box-shadow:0 0 10px #3580ff;
+        box-shadow:0 0 10px #3580ff;
+        color: #3580ff;
+    }
+    .btn-download:hover{
+        -webkit-box-shadow:0 0 10px #3580ff;
+        -moz-box-shadow:0 0 10px #3580ff;
+        box-shadow:0 0 10px #3580ff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        color: #fff;
+    }
+    .download-body .download-form-item{
+        margin-top: 100px;
+    }
+    .btn-download .glyphicon-download-alt{
+        padding-right: 20px;
+    }
+
+    .approach-content-item .download-form-title{
+        padding: 15px 0;
+        font-size: 33px;
+        color: #333;
+        text-align: center;
+    }
+    .approach-content-item .download-form{
+        width: 60%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .approach-content-item .download-form .download-form-ul{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .approach-content-item .download-form .download-form-ul li{
+        width: 100%;
+        margin: 10px 0;
+        font-size:20px;
+        position: relative;
+    }
+    .approach-content-item .download-form .download-form-ul li label{
+        font-weight: normal;
+        width: 140px;
+        text-align: right;
+        padding-right: 20px;
+    }
+    .approach-content-item .download-form .download-form-ul li .download-form-group{
+        display: inline-block;
+        position: relative;
+    }
+    .approach-content-item .download-form .error-show{
+        color: red;
+        display: none;
+        font-size: 16px;
+    }
+    .approach-content-item .download-form .download-form-ul li label span{
+        color:red ;
+    }
+    .approach-content-item .download-form .download-form-ul li input {
+        width: 560px;
+        border: 1px solid #ebebeb;
+        font-size: 20px;
+        padding: 15px;
+    }
+    .approach-content-item .download-form .download-form-group-phone {
+        position: absolute;
+        right: 15px;
+        top:13px;
+    }
+    .approach-content-item .download-form .download-form-group-phone button{
+        width: 100%;
+        border-radius: 2px;
+        background: #3580ff;
+        border: 1px solid #3580ff;
+        color: #fff;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        -moz-transition: all .3s;
+        padding: 6px 12px;
+    }
+    .approach-content-item .download-form .download-form-group-phone .btn-sent {
+        cursor: not-allowed;
+        background: #ddd;
+        border: 1px solid #ddd;
+        outline: none;
+        padding: 6px 12px;
+        color: #3580ff;
+    }
+    .approach-content-item .download-form .download-form-ul li input:focus{
+        box-shadow: 0px 0px 10px rgba(53,128,255,0.5);
+        -webkit-box-shadow: 0px 0px 10px rgba(53,128,255,0.5);
+        -moz-box-shadow: 0px 0px 10px rgba(53,128,255,0.5);
+    }
+    .approach-content-item .download-form .download-form-ul li input:hover{
+        transition: .3s all ease;
+        -webkit-transition: .3s all ease;
+        -moz-transition: .3s all ease;
+        border: 1px solid #3580ff;
+    }
+    .approach-content-item .download-form .download-form-ul li select {
+        width: 560px;
+        border: 1px solid #ebebeb;
+        font-size: 20px;
+        padding: 15px;
+    }
+    .approach-content-item .download-form .download-form-ul li textarea{
+        width: 560px;
+        border: 1px solid #ebebeb;
+        font-size: 20px;
+        max-width: 560px;
+        min-width: 560px;
+        padding: 15px;
+        height: 200px;
+        min-height: 200px;
+        max-height: 400px;
+        vertical-align: top;
+    }
+    .approach-content-item .download-form .download-form-tpis{
+        font-size: 15px;
+        padding-top: 15px;
+        color: #999;
+        margin-left: 150px;
+        width: 560px;
+    }
+    .approach-content-item .download-form .download-form-btn{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .approach-content-item .download-form .download-form-btn-submit{
+        width: 280px;
+        padding: 15px;
+        font-size: 20px;
+        background: #3580ff;
+        outline: none;
+        border: 1px solid #3580ff;
+        transition: .3s all ease;
+        border-radius: 4px;
+        color: #fff;
+    }
+
+   /* 关于我们*/
+    .oneoaas-item {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     height: 97px;
+     z-index: 10;
+    }
+    .anchorBL {
+        display: none;
+    }
+    .about-us,
+    .partner{
+        background: #F7F8FD;
+        padding: 20px;
+        margin: 0;
+    }
+    .about-us, .partner{
+        padding: 15px 30px;
+    }
+    .our-partner .our-partner-img{
+        background: #fff;
+        line-height: 150px;
+    }
+    .our-partner .our-partner-img img{
+        width: 120%;
+        margin-top: -18%;
+        margin-left: -10%;
+    }
+    .text-centerbg{
+        border-bottom: none;
+        font-weight: bold;
+    }
+    h3.text-center {
+        font-size: 2rem;
+        color:#B9B9B9;
+    }
+    .our-partner .our-partner-text h6{
+        color: #000;
+    }
+    .oneoaas-about-banner-bg::after,.oneoaas-community-banner-bg::after{
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        height:520px;
+        width: 100%;
+        background: url("/static/img/pc/about_banner-bg.png") no-repeat;
+        background-size: 100% 520px;
+    }
+    .oneoaas-about-banner{
+        width: 100%;
+        height: 520px;
+        margin:0 auto;
+        position: relative;
+        transition: 2s all ease;
+        -webkit-transition: 2s all ease;
+        -moz-transition: 2s all ease;
+        -o-transition: 2s all ease;
+    }
+    .oneoaas-about-banner .oneoaas-about-banner-canvas{
+        position: absolute;
+        z-index: 100;
+        opacity: .6;
+    }
+    .about-banner-content{
+        max-width: 700px;
+        min-width: 700px;
+        width: 700px;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+        height: 400px;
+        top:120px;
+        z-index: 111;
+        color: #fff;
+    }
+    .about-banner-content h3{
+        font-size: 34px;
+        color: #fff;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .about-banner-content h2{
+        padding-top: 45px;
+        font-size: 45px;
+        color: #fff;
+        text-align: center;
+    }
+    .about-banner-content label{
+        position: absolute;
+        padding: 6px 32px;
+        background: rgba(200, 200, 200, .1);
+        border-radius: 18px;
+        color: #fff;
+        font-size:18px;
+        font-weight: normal;
+    }
+    .about-banner-content .about-center-modal-public{
+        top:0px;
+        left: 300px;
+    }
+    .about-banner-content .about-center-modal-preivce{
+        top:90px;
+        left: 40px;
+    }
+    .about-banner-content .about-center-modal-yunserver{
+        top:90px;
+        left: 520px;
+    }
+    .about-banner-content .about-center-modal-auto{
+        top: 230px;
+        left: 0px;
+    }
+    .about-banner-content .about-center-modal-room{
+        top: 230px;
+        left: 520px;
+    }
+    .about-banner-content .about-center-modal-flow{
+        top: 300px;
+        left:270px;
+
+    }
+    .about-banner-content .about-center-modal-text{
+        position: absolute;
+        top: 150px;
+        left: 240px;
+        font-size: 45px;
+        font-family: "Microsoft JhengHei Light";
+        font-weight: bold;
+    }
+    .about-content-item {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-content-item .about-content-modal{
+        max-width: 1440px;
+        min-width: 1440px;
+        margin: 100px auto;
+    }
+    .about-content-item .body-item-modal-title{
+        text-align: center;
+        color: #333;
+    }
+    .about-content-item .body-item-modal-subheading{
+        text-align: center;
+        color: #999;
+        margin-top: 10px;
+    }
+    .about-content-item .about-item-modal{
+        color: #999;
+        max-width: 1440px;
+        min-width: 1440px;
+        margin: 50px auto;
+    }
+    .about-content-item  .about-item-me{
+        background: #F7F8FC;
+        padding: 50px;
+    }
+    .about-content-item .about-item-modal .about-user-info{
+        font-size: 15px;
+        line-height: 2rem;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .about-content-item .about-item-modal .about-user-info .about-user-info-bold{
+        font-size:15px;
+        color: #3580ff;
+        font-weight: bold;
+        padding: 0 5px;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-icon{
+        float: left;
+        width: 300px;
+        border: 1px solid #ddd;
+        background: #fff;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-icon img{
+        width: 100%;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text{
+        float: left;
+        width: 1040px;
+    }
+    .about-content-item .about-item-modal .user-info-case{
+        background: #F7F8FC;
+        padding: 40px;
+        margin-bottom: 30px;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-text{
+        width: 1040px;
+        float: left;
+        height: 198px;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-text h6{
+        font-size: 20px;
+        color: #666;
+        padding: 0 50px;
+        margin: 0 0 20px 0;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-title{
+        padding: 10px 50px;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-info{
+        padding: 5px 50px;
+        height:84px;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-info strong{
+        color: #3850ff;
+        font-weight: normal;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-detail{
+        height: 30px;
+        padding: 5px 50px;
+    }
+    .about-content-item .about-item-modal .user-info-case .case-detail a{
+        color: #3580ff;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text h6{
+        font-size: 20px;
+        color: #666;
+        padding: 0 50px;
+        margin:0 0 20px 0;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text p{
+        font-size: 14px;
+        color: #999;
+        padding:20px 50px;
+        font-weight: normal;
+    }
+    .about-content-item .about-item-modal .about-user-info .user-info-text p strong{
+        font-weight: normal;
+    }
+    .about-contact-modal{
+        margin: 80px 0;
+    }
+    .about-contact-modal .about-modal-map{
+        max-width: 1440px;
+        min-width: 1440px;
+        margin: 50px auto;
+    }
+    .about-modal-map img.about-map{
+        width: 1440px;
+    }
+}
+/* 图片缩放 */
+img{
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+
+img:hover{
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    cursor: pointer;
+}
+

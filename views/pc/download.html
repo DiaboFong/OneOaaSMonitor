@@ -1,0 +1,286 @@
+{{template "tpl/header.html" .}}
+<div class="oneoaas">
+    <div class="oneoaas-download-banner">
+        {{template "tpl/navigation.html" .}}
+        <div class="download-banner-wraper">
+            <a name="top" id="top"></a>
+            <div class="download-banner-content">
+                <div class="version-content">
+                    <ul class="version-content-model">
+                        <li class="version-content-item">
+                            <div class="version-content-item-title">
+                                <h4 class="version-content-item-title-h4">社区版</h4>
+                                <h5 class="version-content-item-dividing-line">········</h5>
+                            </div>
+                            <ul class="version-content-item-text">
+                                <li class="item-true">大屏展示</li>
+                                <li class="item-false">业务看板</li>
+                                <li class="item-false">基础架构</li>
+                                <li class="item-false">应用状态</li>
+                                <li class="item-true">故障展示</li>
+                                <li class="item-true">报表分析-报表</li>
+                                <li class="item-false">报表分析-历史数据对比</li>
+                                <li class="item-false">报表分析-业务数据对比</li>
+                                <li class="item-true">树形图</li>
+                                <li class="item-false">管理</li>
+                                <li class="item-get-fashion">获取方式</li>
+                                <li class="item-accredit-fashion">授权方式</li>
+                            </ul>
+                            <div class="version-content-item-download">
+                                <button type="button" class="btn btn-download" data-toggle="modal" data-target="#myModalCE"><i class="download-btn-icon"></i>下载安装包</button>
+                            </div>
+                        </li>
+                        <li class="version-content-item">
+                            <div class="version-content-item-title">
+                                <h4 class="version-content-item-title-h4">蓝鲸版</h4>
+                                <h5 class="version-content-item-dividing-line">········</h5>
+                            </div>
+                            <ul class="version-content-item-text">
+                                <li class="item-true">大屏展示</li>
+                                <li class="item-true">业务看板</li>
+                                <li class="item-false">基础架构</li>
+                                <li class="item-false">应用状态</li>
+                                <li class="item-false">故障展示</li>
+                                <li class="item-true">报表分析-报表</li>
+                                <li class="item-false">报表分析-历史数据对比</li>
+                                <li class="item-true">报表分析-业务数据对比</li>
+                                <li class="item-true">树形图</li>
+                                <li class="item-false">管理</li>
+                                <li class="item-get-fashion">获取方式</li>
+                                <li class="item-accredit-fashion">授权方式</li>
+                            </ul>
+                            <div class="version-content-item-download">
+                                <a href="http://bk.tencent.com/s-mart/#/application/105/detail" target="-target"><button type="button" class="btn btn-download"><i class="download-btn-icon"></i>下载安装包</button></a>
+                            </div>
+                        </li>
+                        <li class="version-content-item">
+                            <div class="version-content-item-title">
+                                <h4 class="version-content-item-title-h4">创业版</h4>
+                                <h5 class="version-content-item-dividing-line">········</h5>
+                            </div>
+                            <ul class="version-content-item-text">
+                                <li class="item-true">大屏展示</li>
+                                <li class="item-true">业务看板(限展示3个)</li>
+                                <li class="item-true">基础架构(限展示3个)</li>
+                                <li class="item-true">应用状态(限展示3个)</li>
+                                <li class="item-true">故障展示</li>
+                                <li class="item-true">报表分析-报表(限3个)</li>
+                                <li class="item-true">报表分析-历史数据对比</li>
+                                <li class="item-true">报表分析-业务数据对比</li>
+                                <li class="item-true">树形图</li>
+                                <li class="item-true">管理(限添加3个)</li>
+                                <li class="item-business">获取方式</li>
+                                <li class="item-accredit">授权方式</li>
+                            </ul>
+                            <div class="version-content-item-download">
+                                <button type="button" class="btn btn-probation" data-toggle="modal" data-target="#myModal">申请试用</button>
+                            </div>
+                        </li>
+                        <li class="version-content-item">
+                            <div class="version-content-item-title">
+                                <h4 class="version-content-item-title-h4">企业版</h4>
+                                <h5 class="version-content-item-dividing-line">········</h5>
+                            </div>
+                            <ul class="version-content-item-text">
+                                <li class="item-true">大屏展示</li>
+                                <li class="item-true">业务看板</li>
+                                <li class="item-true">基础架构</li>
+                                <li class="item-true">应用状态</li>
+                                <li class="item-true">故障展示</li>
+                                <li class="item-true">报表分析-报表</li>
+                                <li class="item-true">报表分析-历史数据对比</li>
+                                <li class="item-true">报表分析-业务数据对比</li>
+                                <li class="item-true">树形图</li>
+                                <li class="item-true">管理</li>
+                                <li class="item-enterprise">获取方式</li>
+                                <li class="item-accredit">授权方式</li>
+                            </ul>
+                            <div class="version-content-item-download">
+                                <button id="licenseBtn" type="button" data-toggle="modal" data-target="#enterpriseModal" class="btn btn-probation">联系商务</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="oneoaas-body download-body">
+            <div class="download-approach-content">
+                <div class="approach-content-title">
+                    <div class="approach-first">只需3步</div>
+                    <div class="approach-first-text">立刻开始体验OneOaaS Mointor</div>
+                </div>
+                <div class="approach-content-item">
+                    <ul class="approach-item-modal">
+                        <li>
+                            <div class="item-approach-no">1</div>
+                            <div class="item-approach-info">
+                                <h2>安装Monitor</h2>
+                                <p>为了能让您更好的体验，我们建议安装到您的本地服务器，如Zabbix Web所在的服务器</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-approach-no">2</div>
+                            <div class="item-approach-info">
+                                <h2>获取授权码</h2>
+                                <p>安装后，根据启动的相关提示，申请授权码</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-approach-no">3</div>
+                            <div class="item-approach-info">
+                                <h2>本地体验</h2>
+                                <p>启动服务，打开浏览器即可体验</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+              <!--  <div class="approach-content-item download-form-item">
+                    <div class="download-form-title">请下载安装并XXXX后填写一下表单</div>
+                    <form class="download-form">
+                        <ul class="download-form-ul">
+                            <li>
+                                <label>公司：<span>*</span></label>
+                                <div class="download-form-group">
+                                    <input class="download-form-group-text" id="companyName" type="text" placeholder="请输入公司全称">
+                                </div>
+                                <span class="error-show">公司名称不合法</span>
+                            </li>
+                            <li>
+                                <label>职位：<span>*</span></label>
+                                <div class="download-form-group">
+                                    <input class="download-form-group-text" id="berth" type="text" placeholder="请输入您的职位、如技术总监等">
+                                </div>
+                                <span class="error-show">职位名称不合法</span>
+                            </li>
+                            <li>
+                                <label>姓名：<span>*</span></label>
+                                <div class="download-form-group">
+                                    <input class="download-form-group-text" id="userName" type="text" placeholder="请输入姓名">
+                                </div>
+                                <span class="error-show">姓名不合法</span>
+                            </li>
+                            <li>
+                                <label>邮箱：<span>*</span></label>
+                                <div class="download-form-group">
+                                    <input class="download-form-group-text" id="email" type="email" placeholder="邮箱必须为企业邮箱">
+                                </div>
+                                <span class="error-show">邮箱格式不合法</span>
+                            </li>
+                            <li>
+                                <label>手机：<span>*</span></label>
+                                <div class="download-form-group">
+                                    <input class="download-form-group-text" id="phone" maxlength="11" type="text" placeholder="请输入您的手机号码">
+                                    <div class="download-form-group-phone">
+                                        <button type="button" id="sendingVerificationCode" class="btn btn-phone">发送验证码</button>
+                                    </div>
+                                </div>
+                                <span class="error-show">手机号码不合法</span>
+                            </li>
+                            <li>
+                                <label>验证码：<span>*</span></label>
+                                <div class="download-form-group">
+                                    <input class="download-form-group-text" id="verificationCode" maxlength="6" type="text" placeholder="请输入正确的6位数字验证码">
+                                </div>
+                                <span class="error-show">验证码错误</span>
+                            </li>
+                        </ul>
+                        <div class="download-form-tpis">
+                            请尽量详细地描述您的需求，例如当前的系统架构，所使用的编程语言，中间件类型，数据库类型，服务器数量，以及您想了解什么信息
+                        </div>
+                        <div class="download-form-btn">
+                            <div class="error-show">信息不完整！</div>
+                            <button class="download-form-btn-submit" type="button" id="submit">提交</button>
+                        </div>
+                        <input type="hidden" name="" value="{{.Machinecode}}" id="machinecode">
+                    </form>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModalCE" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">申请使用流程</h4>
+            </div>
+            <div class="modal-body">
+                <div class="download-code">
+                    <p>温馨提示: 安装可以是Zabbix WEB所在服务器，如果是一台全新服务器，需要能够读写Zabbix DB</p>
+                    <p>使用步骤:</p>
+                    <p>wget http://www.oneoaas.com/download/v2.0/oneoaas-monitor-ce-linux-amd64-2.0.0-1.x86_64.rpm</p>
+                    <p>rpm -ivh oneoaas-monitor-ce-linux-amd64-2.0.0-1.x86_64.rpm</p>
+                    <p>vim /usr/share/oneoaas-monitor-ce/conf/app.conf</p>
+                    <p>/etc/init.d/oneoaas-monitor-ce start</p>
+                </div>
+                <div class="download-code download-code-2">
+                    <h4>一、配置说明：</h4>
+                    <p>shell# vim /usr/share/oneoaas-monitor-ce/conf/app.conf</p>
+                    <p>httpport = 4005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#访问端口</p>
+                    <p>dbtype = "mysql"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#zabbix 数据库的类型，默认为MySQL</p>
+                    <p>dbuser = "zabbix"&nbsp;&nbsp;&nbsp;&nbsp;#zabbix 数据库的用户</p>
+                    <p>dbpass = "zabbix"&nbsp;&nbsp;&nbsp;&nbsp;#zabbix 数据库的密码</p>
+                    <p>dbhost = "127.0.0.1"&nbsp;&nbsp;&nbsp;#zabbix 数据库的IP地址</p>
+                    <p>dbport = 3306&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#zabbix 数据库的端口</p>
+                    <p>dbname = "zabbix"&nbsp;&nbsp;&nbsp;#zabbix 数据库的库名称</p>
+                    <p>#zabbix Web的地址，即Web API，Zabbix Web地址为http://10.10.10.38,则配置为ZbxUrl = "http://10.10.10.38"</p>
+                    <p>#带路径的配置，如果您的Zabbix WEB访问地址为http://10.10.10.38/zabbix,则配置为</p>
+                    <p>#ZbxUrl = "http://10.10.10.38/zabbix"</p>
+                    <p>shell# /etc/init.d/oneoaas-monitor-ce start</p>
+                    <h4>二、访问地址</h4>
+                    <p>http://您的IP地址:4005   用户: 您的Zabbix用户   密码: 您的Zabbix密码</p>
+                    <h4>三、手动测试API连接</h4>
+                    <p>shell# curl  -X POST -H 'Content-Type: application/json' -d '{"jsonrpc": "2.0","method":"user.login","params":{"user":"Admin","password":"zabbix"},"id":0}' http://10.10.10.38/api_jsonrpc.php</p>
+                    <p>输出如下结果，则说明http://10.10.10.38为正确的Zabbix API地址{'jsonrpc':'2.0','result':'b93e7c8387a5c55b64c29f6e7830622e','id':0}</p>
+                    <p>如使用过程出现其他问题，可加客服QQ <span style="color: #3580FF">3408827719</span></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="/download/v2.0/oneoaas-monitor-ce-linux-amd64-2.0.0-1.x86_64.rpm"><button type="button" class="btn btn-download"><span class="glyphicon glyphicon-download-alt"></span>下载</button></a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">申请使用流程</h4>
+            </div>
+            <div class="modal-body">
+                <div class="download-code">
+                    <p>温馨提示: 安装可以是Zabbix WEB所在服务器，如果是一台全新服务器，需要能够读写Zabbix DB，注意授权问题</p>
+                    <p>使用步骤:</p>
+                    <p>wget http://www.oneoaas.com/download/v2.0/oneoaas-monitor-se-linux-amd64-2.0.0-2.x86_64.rpm</p>
+                    <p>rpm -ivh oneoaas-monitor-se-linux-amd64-2.0.0-2.x86_64.rpm</p>
+                    <p>/etc/init.d/oneoaas-monitor-se start</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="/download/v2.0/oneoaas-monitor-se-linux-amd64-2.0.0-2.x86_64.rpm"><button type="button" class="btn btn-download"><span class="glyphicon glyphicon-download-alt"></span>下载</button></a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="enterpriseModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">联系方式</h4>
+            </div>
+            <div class="modal-body enterprise-tel">
+                <p>邮箱：support#oneoaas.com(#替换为@)</p>
+                <p>手机：181 2120 2511</p>
+                <p>固话：021 6095 0835</p>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+{{template "tpl/footer.html" .}}
+{{template "tpl/scripts.html" .}}
+<script type="text/javascript" src="/static/js/lisense.js"></script>

@@ -1,0 +1,4 @@
+2017/09/11 10:24:16 [I] [sms_api.go:164] 手机号:13022112826 验证码:970597 发送成功
+2017/09/11 10:24:32 [E] [apply_api.go:136] 服务器内部错误 msg:Error 1062: Duplicate entry '0694821dd88011b6f79e89564d6cb53c' for key 'machinecode'
+2017/09/11 10:24:38 [E] [apply_api.go:136] 服务器内部错误 msg:Error 1062: Duplicate entry '0694821dd88011b6f79e89564d6cb53c' for key 'machinecode'
+2017/09/11 10:45:34 [I] [sms_api.go:164] 手机号:13022112826 验证码:970597 发送成功

@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    var lis = $("ul.common-topbar-nav-list li a.menu");
+    lis.each(function(idx){
+        $this = $(this);
+        if($this[0].href==String(window.location)) {
+            $this.addClass('active');
+        }
+    });
+    $(".back-top").hide();
+    $(window).scroll(function(){
+        if($(this).scrollTop()>80){
+            $(".back-top").fadeIn();
+        } else {
+            $(".back-top").fadeOut();
+        }
+    });
+
+    $('.navbar-icon').bind('touchstart',function () {
+        $('.common-topbar-nav').toggle();
+    });
+</script>

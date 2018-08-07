@@ -1,0 +1,34 @@
+<script src="/static/js/jquery.cookie.js"> </script>
+<script src="/static/js/bootstrap.min.js"> </script>
+<script src="/static/js/jquery.tabledit.js"> </script>
+<script src="/static/js/jquery.dataTables.min.js"> </script>
+<script src="/static/js/dataTables.buttons.min.js"> </script>
+<script src="/static/js/dataTables.checkboxes.min.js"> </script>
+<script src="/static/js/dataTables.select.min.js"> </script>
+<script src="/static/js/dataTables.bootstrap.min.js"> </script>
+<!-- csv -->
+<script src="/static/js/buttons.html5.min.js"> </script>
+<!-- excel -->
+<script src="/static/js/jszip.min.js"> </script>
+<script type="text/javascript">
+    var lis = $("ul.common-topbar-nav-list li a.menu");
+    lis.each(function(idx){
+        $this = $(this);
+        if($this[0].href==String(window.location)) {
+            $this.addClass('active');
+        }
+    });
+    $(".back-top").hide();
+    $(window).scroll(function(){
+        if($(this).scrollTop()>80){
+            $(".back-top").fadeIn();
+        } else {
+            $(".back-top").fadeOut();
+        }
+    });
+
+    $('.navbar-icon').bind('touchstart',function () {
+        $('.common-topbar-nav').toggle();
+    });
+    $(".nav-username").html("欢迎<span class='ml5'>"+$.cookie("who")+"</span>");
+</script>

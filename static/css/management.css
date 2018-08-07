@@ -1,0 +1,211 @@
+body{
+    background: #ecf0f5;
+}
+a:hover{
+    text-decoration: none;
+}
+/*  datatables 样式重置  */
+table,
+table th{
+    text-align: center;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding: 0;
+}
+/* 公共样式 */
+.ml5{
+    padding-left: 5px;
+}
+.ml10{
+    padding-left: 10px;
+}
+.ml15{
+    padding-left: 15px;
+}
+.ml20{
+    padding-left: 20px;
+}
+.mr5{
+    padding-right: 5px;
+}
+.mr10{
+    padding-right: 10px;
+}
+.mr15{
+    padding-right: 15px;
+}
+.mr20{
+    padding-right: 20px;
+}
+.mgl20{
+    margin-left: 20px;
+}
+.mgr20{
+    margin-right: 20px;
+}
+/*  top   */
+.main-header{
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    z-index: 11;
+}
+.navbar{
+    height:50px;
+    margin-left: 0;
+    box-shadow: 0 0 10px #969696;
+    background-color: #f6fbfc;
+}
+.navbar .logo{
+    padding: 8px 15px;
+    width: 230px;
+    display: inline-block;
+    background-color: #2d3a45;
+    height: 50px;
+    border-bottom: 2px solid #3580FF;
+}
+.navbar-custom-menu{
+    float: right;
+}
+.navbar-custom-menu .nav{
+    line-height: 50px;
+    padding-right: 20px;
+}
+/* left  */
+.main-sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #2d3a45;
+    padding-top: 50px;
+    height: 100%;
+    width: 230px;
+    font-size: 16px;
+    overflow: auto;
+    z-index: 10;
+}
+.sidebar-menu{
+    list-style: none;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 0px;
+}
+.sidebar-menu li{
+    padding-left: 20px;
+}
+.sidebar-menu li a{
+    color:#b8c7ce;
+    width: 100%;
+    display: inline-block;
+}
+.sidebar-menu li:hover{
+    background: #23303b;
+    border-left: 2px solid #2580ff;
+    padding-left: 18px;
+}
+.sidebar-menu li:hover a{
+    color: #fff;
+}
+.sidebar-menu .active{
+    background: #23303b;
+    border-left: 2px solid #2580ff;
+    padding-left: 18px;
+}
+.sidebar-menu .active a{
+    color: #fff;
+}
+.sidebar-menu .header:hover{
+    background: #2d3a45;
+    border-left: none;
+    padding-left:20px;
+}
+/*  body  */
+.manage-content{
+    margin-left: 230px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.app-board{
+    padding: 20px;
+    background: #fff;
+}
+/*  datatables style */
+.datatable-header button{
+    margin-top: 15px;
+}
+table.dataTable{
+    margin-left: 0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    border: 1px solid #2196F3;
+    border-radius: 2px;
+    margin-left: 1px;
+    padding-left: 1px;
+}
+.dataTables_wrapper .dataTables_paginate .previous:hover{
+    background: transparent;
+    padding-left: 0;
+}
+.datatable-body .row:nth-child(3){
+    display: inline-block;
+    float: right;
+}
+.datatable-body  .dt-buttons{
+    display: inline-block;
+    padding-top: 10px;
+}
+/*  modal  */
+.shade{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.36);
+    z-index: 5;
+    display: none;
+    overflow: auto;
+}
+.modal{
+    display: block;
+    width: 600px;
+    top: 20%;
+    left: 40%;
+    background: #fff;
+    height: 220px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.modal-header{
+    line-height: 60px;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.modal-header a{
+    padding-top: 20px;
+}
+.modal-body{
+    height: 100px;
+    line-height: 70px;
+    font-size: 2.5rem;
+}
+.modal-footer{
+    height: 40px;
+}
+.modal-footer .btn{
+    background: #337ab7;
+    color: #fff;
+    width: 100%;
+}
+/* license 申请 */
+#apply_for_license .download-content{
+    margin: 10% auto;
+    border-radius: 8px;
+}
+#apply_for_license .btn{
+    font-size: 16px;
+    padding: 10px 24px;
+}

@@ -1,0 +1,69 @@
+<div class="footer">
+    <a href="#top" class="back-top" target="_self"></a>
+    <div class="m-footer-top-bg"></div>
+    <div class="footer-content-item">
+        <ul class="content-item-text">
+            <!-- 微信 -->
+            <li class="item-text-modal" style="width: 22%">
+                <div class="text-modal-head"><img src="/static/img/pc/footer-logo.png" alt="logo"></div>
+                <div class="text-modal-code wechat">关注OneOaaS最新资讯</div>
+                <div class="text-modal-code"><img class="wechat-img" src="/static/img/pc/footer-wechat.png" alt="wechat" id="wechat"></div>
+                <div class="text-modal-qrcode"><img src="/static/img/pc/footer-wechat-code.png" id="qrcode" alt="qrcode"></div>
+            </li>
+            <!-- 产品 -->
+            <li class="item-text-modal" style="width: 22%">
+                <div class="text-modal-head">产品</div>
+                <div class="text-modal-code"><a href="/products">OneOaaS Monitor</a></div>
+            </li>
+            <!-- 开源产品 -->
+            <li class="item-text-modal"  style="width: 24%">
+                <div class="text-modal-head">开源产品</div>
+                <div class="text-modal-code"><a href="https://github.com/oneoaas/graphtrees" target="-target">graphtrees</a></div>
+            </li>
+            <!-- 联系方式 -->
+            <li class="item-text-modal" style="width: 31%">
+                <a name="bottom" id="bottom"></a>
+                <div class="text-modal-head">联系方式</div>
+                <div class="text-modal-code">地址：上海市普陀区中江路879号天地软件园27栋308</div>
+                <div class="text-modal-code">手机：<a href="tel:181 2120 2511">181 2120 2511</a></div>
+                <div class="text-modal-code">固话：<a href="tel:021 6095 0835">021 6095 0835</a></div>
+                <div class="text-modal-code">邮箱：support#oneoaas.com(#替换为@)</div>
+            </li>
+        </ul>
+        <div class="m-footer">
+            <div class="m-footer-logo"><img src="/static/img/pc/footer-logo.png" alt="logo"></div>
+            <div class="m-footer-modal">
+                <h2 class="m-footer-item-title">产品</h2>
+                <h5 class="m-footer-item-text"><a href="/products">OneOaaS Monitor</a></h5>
+            </div>
+            <div class="m-footer-modal">
+                <h2 class="m-footer-item-title">开源产品</h2>
+                <h5 class="m-footer-item-text"><a href="https://github.com/oneoaas/graphtrees">graphtrees</a></h5>
+            </div>
+            <div class="m-footer-modal">
+                <h2 class="m-footer-item-title">联系方式</h2>
+                <h5 class="m-footer-item-text">地址：上海市普陀区中江路879号天地软件园27栋308</h5>
+                <h5 class="m-footer-item-text">手机：<a href="tel:181 2120 2511">181 2120 2511</a></h5>
+                <h5 class="m-footer-item-text">固话：<a href="tel:021 6095 0835">021 6095 0835</a></h5>
+                <h5 class="m-footer-item-text">邮箱：support#oneoaas.com(#替换为@)</h5>
+            </div>
+            <div class="m-footer-modal">
+                <h5 class="m-footer-item-text"><img src="/static/img/pc/index_footer_wechat.png" alt=""> 长按以关注OneOaaS最新资讯</h5>
+                <div class="m-footer-code"><img src="/static/img/pc/footer-wechat-code.png" alt=""> </div>
+            </div>
+        </div>
+    </div>
+    <div class="Copyright">Copyright&copy;2014 - 2017 上海皓西信息科技有限公司 All Rights Reserved. 沪ICP备16021328号-1</div>
+</div>
+<script src="/static/js/jquery-2.1.1.min.js"></script>
+<script src="/static/js/bootstrap.min.js "></script>
+<script src="/static/js/swiper-3.3.1.jquery.min.js"></script>
+<script>
+    $('#wechat').hover(function () {
+        $('#qrcode').parent().show();
+        $('#wechat').attr('src','/static/img/pc/index_footer_wechat.png');
+    },function () {
+        $('#qrcode').parent().hide();
+        $('#wechat').attr('src','/static/img/pc/footer-wechat.png');
+    })
+</script>
